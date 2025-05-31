@@ -1,0 +1,940 @@
+{
+    "Zappa": {
+        "Zappa-1434": {
+            "test_files": {
+                "pytest tests/tests.py::TestZappa::test_certify_sanity_checks": "tests/tests.py"
+            },
+            "test_funcs": {
+                "pytest tests/tests.py::TestZappa::test_certify_sanity_checks": "test_certify_sanity_checks"
+            },
+            "py_version": "2.7.18",
+            "used_framework": "pytest"
+        },
+        "Zappa-388": {
+            "test_files": {
+                "pytest tests/tests.py::TestZappa::test_wsgi_without_body": "tests/tests.py"
+            },
+            "test_funcs": {
+                "pytest tests/tests.py::TestZappa::test_wsgi_without_body": "test_wsgi_without_body"
+            },
+            "py_version": "2.7.18",
+            "used_framework": "pytest"
+        }
+    },
+    "airflow": {
+        "airflow-14513": {
+            "test_files": {
+                "pytest tests/kubernetes/test_pod_launcher.py::TestPodLauncher::test_monitor_pod_empty_logs": "tests/kubernetes/test_pod_launcher.py"
+            },
+            "test_funcs": {
+                "pytest tests/kubernetes/test_pod_launcher.py::TestPodLauncher::test_monitor_pod_empty_logs": "test_monitor_pod_empty_logs"
+            },
+            "py_version": "3.6.9",
+            "used_framework": "pytest"
+        },
+        "airflow-14686": {
+            "test_files": {
+                "pytest tests/providers/elasticsearch/log/test_es_task_handler.py::TestElasticsearchTaskHandler::test_read_with_match_phrase_query": "tests/providers/elasticsearch/log/test_es_task_handler.py"
+            },
+            "test_funcs": {
+                "pytest tests/providers/elasticsearch/log/test_es_task_handler.py::TestElasticsearchTaskHandler::test_read_with_match_phrase_query": "test_read_with_match_phrase_query"
+            },
+            "py_version": "3.6.9",
+            "used_framework": "pytest"
+        },
+        "airflow-3831": {
+            "test_files": {
+                "pytest tests/contrib/operators/test_dataflow_operator.py::GoogleCloudBucketHelperTest": "tests/contrib/operators/test_dataflow_operator.py"
+            },
+            "test_funcs": {
+                "pytest tests/contrib/operators/test_dataflow_operator.py::GoogleCloudBucketHelperTest": "GoogleCloudBucketHelperTest"
+            },
+            "py_version": "3.6.9",
+            "used_framework": "pytest"
+        },
+        "airflow-4674": {
+            "test_files": {
+                "pytest tests/test_configuration.py::ConfTest::test_command_precedence": "tests/test_configuration.py"
+            },
+            "test_funcs": {
+                "pytest tests/test_configuration.py::ConfTest::test_command_precedence": "test_command_precedence"
+            },
+            "py_version": "3.6.9",
+            "used_framework": "pytest"
+        },
+        "airflow-5686": {
+            "test_files": {
+                "pytest tests/hooks/test_http_hook.py::TestHttpHook::test_connection_without_host": "tests/hooks/test_http_hook.py"
+            },
+            "test_funcs": {
+                "pytest tests/hooks/test_http_hook.py::TestHttpHook::test_connection_without_host": "test_connection_without_host"
+            },
+            "py_version": "3.6.9",
+            "used_framework": "pytest"
+        },
+        "airflow-6036": {
+            "test_files": {
+                "pytest tests/gcp/hooks/test_dataflow.py::TestDataFlowJob": "tests/gcp/hooks/test_dataflow.py"
+            },
+            "test_funcs": {
+                "pytest tests/gcp/hooks/test_dataflow.py::TestDataFlowJob": "TestDataFlowJob"
+            },
+            "py_version": "3.6.9",
+            "used_framework": "pytest"
+        },
+        "airflow-8151": {
+            "test_files": {
+                "pytest tests/models/test_dagcode.py::TestDagCode::test_sync_to_db # Error": "tests/models/test_dagcode.py",
+                "pytest tests/models/test_dagcode.py::TestDagCode::test_bulk_sync_to_db": "tests/models/test_dagcode.py",
+                "pytest tests/models/test_dagcode.py::TestDagCode::test_bulk_sync_to_db_half_files": "tests/models/test_dagcode.py",
+                "# \ud639\uc740 test_dagcode.py \uc804\uccb4\uac00 \uad00\ub828\ub41c \ud14c\uc2a4\ud2b8\uc77c\uc218\ub3c4!": "# \ud639\uc740 test_dagcode.py"
+            },
+            "test_funcs": {
+                "pytest tests/models/test_dagcode.py::TestDagCode::test_sync_to_db # Error": "test_sync_to_db # Error",
+                "pytest tests/models/test_dagcode.py::TestDagCode::test_bulk_sync_to_db": "test_bulk_sync_to_db",
+                "pytest tests/models/test_dagcode.py::TestDagCode::test_bulk_sync_to_db_half_files": "test_bulk_sync_to_db_half_files",
+                "# \ud639\uc740 test_dagcode.py \uc804\uccb4\uac00 \uad00\ub828\ub41c \ud14c\uc2a4\ud2b8\uc77c\uc218\ub3c4!": ""
+            },
+            "py_version": "3.6.9",
+            "used_framework": "pytest"
+        }
+    },
+    "beets": {
+        "beets-3360": {
+            "test_files": {
+                "pytest test/test_thumbnails.py::TestPathlibURI::test_uri": "test/test_thumbnails.py"
+            },
+            "test_funcs": {
+                "pytest test/test_thumbnails.py::TestPathlibURI::test_uri": "test_uri"
+            },
+            "py_version": "3.6.9",
+            "used_framework": "pytest"
+        }
+    },
+    "core": {
+        "core-1972": {
+            "test_files": {
+                "pytest tests/helpers/test_script.py::TestScriptHelper::test_condition": "tests/helpers/test_script.py"
+            },
+            "test_funcs": {
+                "pytest tests/helpers/test_script.py::TestScriptHelper::test_condition": "test_condition"
+            },
+            "py_version": "3.6.9",
+            "used_framework": "pytest"
+        },
+        "core-20233": {
+            "test_files": {
+                "pytest tests/helpers/test_template.py::TestHelpersTemplate::test_render_with_possible_json_value_non_string_value": "tests/helpers/test_template.py"
+            },
+            "test_funcs": {
+                "pytest tests/helpers/test_template.py::TestHelpersTemplate::test_render_with_possible_json_value_non_string_value": "test_render_with_possible_json_value_non_string_value"
+            },
+            "py_version": "3.6.9",
+            "used_framework": "pytest"
+        },
+        "core-21734": {
+            "test_files": {
+                "pytest tests/components/sensor/test_dsmr.py::test_derivative": "tests/components/sensor/test_dsmr.py"
+            },
+            "test_funcs": {
+                "pytest tests/components/sensor/test_dsmr.py::test_derivative": "test_derivative"
+            },
+            "py_version": "3.6.9",
+            "used_framework": "pytest"
+        },
+        "core-29829": {
+            "test_files": {
+                "pytest tests/components/input_text/test_init.py::test_restore_state": "tests/components/input_text/test_init.py"
+            },
+            "test_funcs": {
+                "pytest tests/components/input_text/test_init.py::test_restore_state": "test_restore_state"
+            },
+            "py_version": "3.6.9",
+            "used_framework": "pytest"
+        },
+        "core-32222": {
+            "test_files": {
+                "pytest tests/components/unifi/test_device_tracker.py": "tests/components/unifi/test_device_tracker.py"
+            },
+            "test_funcs": {
+                "pytest tests/components/unifi/test_device_tracker.py": ""
+            },
+            "py_version": "3.7.9",
+            "used_framework": "pytest"
+        },
+        "core-32318": {
+            "test_files": {
+                "pytest tests/components/unifi/test_device_tracker.py": "tests/components/unifi/test_device_tracker.py"
+            },
+            "test_funcs": {
+                "pytest tests/components/unifi/test_device_tracker.py": ""
+            },
+            "py_version": "3.7.9",
+            "used_framework": "pytest"
+        },
+        "core-40034": {
+            "test_files": {
+                "pytest tests/helpers/test_condition.py::test_extract_entities": "tests/helpers/test_condition.py",
+                "pytest tests/helpers/test_condition.py::test_extract_devices": "tests/helpers/test_condition.py"
+            },
+            "test_funcs": {
+                "pytest tests/helpers/test_condition.py::test_extract_entities": "test_extract_entities",
+                "pytest tests/helpers/test_condition.py::test_extract_devices": "test_extract_devices"
+            },
+            "py_version": "3.7.9",
+            "used_framework": "pytest"
+        }
+    },
+    "kivy": {
+        "kivy-6954": {
+            "test_files": {
+                "pytest kivy/tests/test_urlrequest.py::test_ca_file": "kivy/tests/test_urlrequest.py"
+            },
+            "test_funcs": {
+                "pytest kivy/tests/test_urlrequest.py::test_ca_file": "test_ca_file"
+            },
+            "py_version": "3.6.9",
+            "used_framework": "pytest"
+        }
+    },
+    "luigi": {
+        "luigi-1836": {
+            "test_files": {
+                "pytest test/contrib/pig_test.py": "test/contrib/pig_test.py"
+            },
+            "test_funcs": {
+                "pytest test/contrib/pig_test.py": ""
+            },
+            "py_version": "3.6.9",
+            "used_framework": "pytest"
+        }
+    },
+    "numpy": {
+        "numpy-10473": {
+            "test_files": {
+                "pytest numpy/lib/tests/test_polynomial.py::TestDocs::test_polydiv": "numpy/lib/tests/test_polynomial.py"
+            },
+            "test_funcs": {
+                "pytest numpy/lib/tests/test_polynomial.py::TestDocs::test_polydiv": "test_polydiv"
+            },
+            "py_version": "3.6.9",
+            "used_framework": "pytest"
+        },
+        "numpy-19094": {
+            "test_files": {
+                "pytest numpy/typing/tests/test_generic_alias.py::TestGenericAlias::test_pass": "numpy/typing/tests/test_generic_alias.py"
+            },
+            "test_funcs": {
+                "pytest numpy/typing/tests/test_generic_alias.py::TestGenericAlias::test_pass": "test_pass"
+            },
+            "py_version": "3.7.9",
+            "used_framework": "pytest"
+        },
+        "numpy-9999": {
+            "test_files": {
+                "pytest numpy/lib/tests/test_arraysetops.py::TestSetOps::test_in1d_first_array_is_object": "numpy/lib/tests/test_arraysetops.py",
+                "pytest numpy/lib/tests/test_arraysetops.py::TestSetOps::test_in1d_second_array_is_object": "numpy/lib/tests/test_arraysetops.py",
+                "pytest numpy/lib/tests/test_arraysetops.py::TestSetOps::test_in1d_both_arrays_are_object": "numpy/lib/tests/test_arraysetops.py",
+                "pytest numpy/lib/tests/test_arraysetops.py::TestSetOps::test_in1d_both_arrays_have_structured_dtype": "numpy/lib/tests/test_arraysetops.py"
+            },
+            "test_funcs": {
+                "pytest numpy/lib/tests/test_arraysetops.py::TestSetOps::test_in1d_first_array_is_object": "test_in1d_first_array_is_object",
+                "pytest numpy/lib/tests/test_arraysetops.py::TestSetOps::test_in1d_second_array_is_object": "test_in1d_second_array_is_object",
+                "pytest numpy/lib/tests/test_arraysetops.py::TestSetOps::test_in1d_both_arrays_are_object": "test_in1d_both_arrays_are_object",
+                "pytest numpy/lib/tests/test_arraysetops.py::TestSetOps::test_in1d_both_arrays_have_structured_dtype": "test_in1d_both_arrays_have_structured_dtype"
+            },
+            "py_version": "3.6.9",
+            "used_framework": "pytest"
+        }
+    },
+    "pandas": {
+        "pandas-15941": {
+            "test_files": {
+                "pytest pandas/tests/types/test_common.py::test_get_dtype_error_catch": "pandas/tests/types/test_common.py"
+            },
+            "test_funcs": {
+                "pytest pandas/tests/types/test_common.py::test_get_dtype_error_catch": "test_get_dtype_error_catch"
+            },
+            "py_version": "3.6.9",
+            "used_framework": "pytest"
+        },
+        "pandas-17430": {
+            "test_files": {
+                "pytest pandas/tests/plotting/test_frame.py::TestDataFramePlots::test_subplots_timeseries_y_axis": "pandas/tests/plotting/test_frame.py"
+            },
+            "test_funcs": {
+                "pytest pandas/tests/plotting/test_frame.py::TestDataFramePlots::test_subplots_timeseries_y_axis": "test_subplots_timeseries_y_axis"
+            },
+            "py_version": "3.6.9",
+            "used_framework": "pytest"
+        },
+        "pandas-17609": {
+            "test_files": {
+                "pytest pandas/tests/util/test_util.py::test_make_signature": "pandas/tests/util/test_util.py"
+            },
+            "test_funcs": {
+                "pytest pandas/tests/util/test_util.py::test_make_signature": "test_make_signature"
+            },
+            "py_version": "3.6.9",
+            "used_framework": "pytest"
+        },
+        "pandas-18831": {
+            "test_files": {
+                "pytest pandas/tests/series/test_operators.py::TestTimedeltaSeriesArithmetic::test_timedelta_rfloordiv": "pandas/tests/series/test_operators.py",
+                "pytest pandas/tests/series/test_operators.py::TestTimedeltaSeriesArithmetic::test_timedelta_rfloordiv_explicit": "pandas/tests/series/test_operators.py",
+                "pytest pandas/tests/series/test_operators.py::TestTimedeltaSeriesArithmetic::test_timedelta_floordiv": "pandas/tests/series/test_operators.py"
+            },
+            "test_funcs": {
+                "pytest pandas/tests/series/test_operators.py::TestTimedeltaSeriesArithmetic::test_timedelta_rfloordiv": "test_timedelta_rfloordiv",
+                "pytest pandas/tests/series/test_operators.py::TestTimedeltaSeriesArithmetic::test_timedelta_rfloordiv_explicit": "test_timedelta_rfloordiv_explicit",
+                "pytest pandas/tests/series/test_operators.py::TestTimedeltaSeriesArithmetic::test_timedelta_floordiv": "test_timedelta_floordiv"
+            },
+            "py_version": "3.6.9",
+            "used_framework": "pytest"
+        },
+        "pandas-18849": {
+            "test_files": {
+                "pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_add_offset_array": "pandas/tests/indexes/datetimes/test_arithmetic.py",
+                "pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_sub_offset_array": "pandas/tests/indexes/datetimes/test_arithmetic.py",
+                "pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_with_offset_series": "pandas/tests/indexes/datetimes/test_arithmetic.py"
+            },
+            "test_funcs": {
+                "pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_add_offset_array": "test_dti_add_offset_array",
+                "pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_sub_offset_array": "test_dti_sub_offset_array",
+                "pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_with_offset_series": "test_dti_with_offset_series"
+            },
+            "py_version": "3.6.9",
+            "used_framework": "pytest"
+        },
+        "pandas-19013": {
+            "test_files": {
+                "pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_add_int": "pandas/tests/indexes/datetimes/test_arithmetic.py",
+                "pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_iadd_int": "pandas/tests/indexes/datetimes/test_arithmetic.py",
+                "pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_sub_int": "pandas/tests/indexes/datetimes/test_arithmetic.py",
+                "pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_isub_int": "pandas/tests/indexes/datetimes/test_arithmetic.py",
+                "pytest pandas/tests/indexes/period/test_arithmetic.py::TestPeriodIndexArithmetic::test_pi_add_int": "pandas/tests/indexes/period/test_arithmetic.py",
+                "pytest pandas/tests/indexes/period/test_arithmetic.py::TestPeriodIndexArithmetic::test_sub": "pandas/tests/indexes/period/test_arithmetic.py",
+                "pytest pandas/tests/indexes/timedeltas/test_arithmetic.py::TestTimedeltaIndexArithmetic::test_tdi_add_int": "pandas/tests/indexes/timedeltas/test_arithmetic.py",
+                "pytest pandas/tests/indexes/timedeltas/test_arithmetic.py::TestTimedeltaIndexArithmetic::test_tdi_iadd_int": "pandas/tests/indexes/timedeltas/test_arithmetic.py",
+                "pytest pandas/tests/indexes/timedeltas/test_arithmetic.py::TestTimedeltaIndexArithmetic::test_tdi_sub_int": "pandas/tests/indexes/timedeltas/test_arithmetic.py",
+                "pytest pandas/tests/indexes/timedeltas/test_arithmetic.py::TestTimedeltaIndexArithmetic::test_tdi_isub_int": "pandas/tests/indexes/timedeltas/test_arithmetic.py"
+            },
+            "test_funcs": {
+                "pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_add_int": "test_dti_add_int",
+                "pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_iadd_int": "test_dti_iadd_int",
+                "pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_sub_int": "test_dti_sub_int",
+                "pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_isub_int": "test_dti_isub_int",
+                "pytest pandas/tests/indexes/period/test_arithmetic.py::TestPeriodIndexArithmetic::test_pi_add_int": "test_pi_add_int",
+                "pytest pandas/tests/indexes/period/test_arithmetic.py::TestPeriodIndexArithmetic::test_sub": "test_sub",
+                "pytest pandas/tests/indexes/timedeltas/test_arithmetic.py::TestTimedeltaIndexArithmetic::test_tdi_add_int": "test_tdi_add_int",
+                "pytest pandas/tests/indexes/timedeltas/test_arithmetic.py::TestTimedeltaIndexArithmetic::test_tdi_iadd_int": "test_tdi_iadd_int",
+                "pytest pandas/tests/indexes/timedeltas/test_arithmetic.py::TestTimedeltaIndexArithmetic::test_tdi_sub_int": "test_tdi_sub_int",
+                "pytest pandas/tests/indexes/timedeltas/test_arithmetic.py::TestTimedeltaIndexArithmetic::test_tdi_isub_int": "test_tdi_isub_int"
+            },
+            "py_version": "3.6.9",
+            "used_framework": "pytest"
+        },
+        "pandas-19276": {
+            "test_files": {
+                "pytest pandas/tests/indexes/datetimes/test_datetime.py::TestDatetimeIndex::test_nat_comparison_tzawareness": "pandas/tests/indexes/datetimes/test_datetime.py"
+            },
+            "test_funcs": {
+                "pytest pandas/tests/indexes/datetimes/test_datetime.py::TestDatetimeIndex::test_nat_comparison_tzawareness": "test_nat_comparison_tzawareness"
+            },
+            "py_version": "3.6.9",
+            "used_framework": "pytest"
+        },
+        "pandas-20968": {
+            "test_files": {
+                "pytest pandas/tests/plotting/test_frame.py::TestDataFramePlots::test_groupby_boxplot_sharey": "pandas/tests/plotting/test_frame.py",
+                "pytest pandas/tests/plotting/test_frame.py::TestDataFramePlots::test_groupby_boxplot_sharex": "pandas/tests/plotting/test_frame.py"
+            },
+            "test_funcs": {
+                "pytest pandas/tests/plotting/test_frame.py::TestDataFramePlots::test_groupby_boxplot_sharey": "test_groupby_boxplot_sharey",
+                "pytest pandas/tests/plotting/test_frame.py::TestDataFramePlots::test_groupby_boxplot_sharex": "test_groupby_boxplot_sharex"
+            },
+            "py_version": "3.6.9",
+            "used_framework": "pytest"
+        },
+        "pandas-21540": {
+            "test_files": {
+                "pytest pandas/tests/io/json/test_normalize.py::TestJSONNormalize::test_value_array_record_prefix": "pandas/tests/io/json/test_normalize.py"
+            },
+            "test_funcs": {
+                "pytest pandas/tests/io/json/test_normalize.py::TestJSONNormalize::test_value_array_record_prefix": "test_value_array_record_prefix"
+            },
+            "py_version": "3.6.9",
+            "used_framework": "pytest"
+        },
+        "pandas-21590": {
+            "test_files": {
+                "pytest pandas/tests/frame/test_operators.py::TestDataFrameOperators::test_neg_object": "pandas/tests/frame/test_operators.py",
+                "pytest pandas/tests/frame/test_operators.py::TestDataFrameOperators::test_pos_object": "pandas/tests/frame/test_operators.py"
+            },
+            "test_funcs": {
+                "pytest pandas/tests/frame/test_operators.py::TestDataFrameOperators::test_neg_object": "test_neg_object",
+                "pytest pandas/tests/frame/test_operators.py::TestDataFrameOperators::test_pos_object": "test_pos_object"
+            },
+            "py_version": "3.6.9",
+            "used_framework": "pytest"
+        },
+        "pandas-22072": {
+            "test_files": {
+                "pytest pandas/tests/indexes/multi/test_constructor.py::test_from_tuples_with_tuple_label": "pandas/tests/indexes/multi/test_constructor.py"
+            },
+            "test_funcs": {
+                "pytest pandas/tests/indexes/multi/test_constructor.py::test_from_tuples_with_tuple_label": "test_from_tuples_with_tuple_label"
+            },
+            "py_version": "3.6.9",
+            "used_framework": "pytest"
+        },
+        "pandas-22198": {
+            "test_files": {
+                "pytest pandas/tests/indexes/multi/test_constructor.py::test_from_tuples_with_tuple_label": "pandas/tests/indexes/multi/test_constructor.py"
+            },
+            "test_funcs": {
+                "pytest pandas/tests/indexes/multi/test_constructor.py::test_from_tuples_with_tuple_label": "test_from_tuples_with_tuple_label"
+            },
+            "py_version": "3.6.9",
+            "used_framework": "pytest"
+        },
+        "pandas-22378": {
+            "test_files": {
+                "pytest pandas/tests/arithmetic/test_object.py::TestArithmetic::test_add_extension_scalar": "pandas/tests/arithmetic/test_object.py"
+            },
+            "test_funcs": {
+                "pytest pandas/tests/arithmetic/test_object.py::TestArithmetic::test_add_extension_scalar": "test_add_extension_scalar"
+            },
+            "py_version": "3.6.9",
+            "used_framework": "pytest"
+        },
+        "pandas-22804": {
+            "test_files": {
+                "pytest pandas/tests/io/json/test_normalize.py::TestJSONNormalize::test_nested_object_record_path": "pandas/tests/io/json/test_normalize.py"
+            },
+            "test_funcs": {
+                "pytest pandas/tests/io/json/test_normalize.py::TestJSONNormalize::test_nested_object_record_path": "test_nested_object_record_path"
+            },
+            "py_version": "3.6.9",
+            "used_framework": "pytest"
+        },
+        "pandas-24572": {
+            "test_files": {
+                "pytest pandas/tests/io/formats/test_to_html.py::TestToHTML::test_to_html_truncate_multi_index_sparse_off": "pandas/tests/io/formats/test_to_html.py"
+            },
+            "test_funcs": {
+                "pytest pandas/tests/io/formats/test_to_html.py::TestToHTML::test_to_html_truncate_multi_index_sparse_off": "test_to_html_truncate_multi_index_sparse_off"
+            },
+            "py_version": "3.6.9",
+            "used_framework": "pytest"
+        },
+        "pandas-25533": {
+            "test_files": {
+                "pytest pandas/tests/indexing/test_scalar.py::TestScalar::test_series_set_tz_timestamp": "pandas/tests/indexing/test_scalar.py"
+            },
+            "test_funcs": {
+                "pytest pandas/tests/indexing/test_scalar.py::TestScalar::test_series_set_tz_timestamp": "test_series_set_tz_timestamp"
+            },
+            "py_version": "3.6.9",
+            "used_framework": "pytest"
+        },
+        "pandas-25759": {
+            "test_files": {
+                "pytest pandas/tests/indexing/test_iloc.py::TestiLoc::test_iloc_non_integer_raises": "pandas/tests/indexing/test_iloc.py"
+            },
+            "test_funcs": {
+                "pytest pandas/tests/indexing/test_iloc.py::TestiLoc::test_iloc_non_integer_raises": "test_iloc_non_integer_raises"
+            },
+            "py_version": "3.6.9",
+            "used_framework": "pytest"
+        },
+        "pandas-26765": {
+            "test_files": {
+                "pytest pandas/tests/reshape/test_pivot.py::TestPivotTable::test_pivot_with_interval_index": "pandas/tests/reshape/test_pivot.py"
+            },
+            "test_funcs": {
+                "pytest pandas/tests/reshape/test_pivot.py::TestPivotTable::test_pivot_with_interval_index": "test_pivot_with_interval_index"
+            },
+            "py_version": "3.7.9",
+            "used_framework": "pytest"
+        },
+        "pandas-28251": {
+            "test_files": {
+                "pytest pandas/tests/series/test_analytics.py::TestSeriesAnalytics::test_bool_diff": "pandas/tests/series/test_analytics.py"
+            },
+            "test_funcs": {
+                "pytest pandas/tests/series/test_analytics.py::TestSeriesAnalytics::test_bool_diff": "test_bool_diff"
+            },
+            "py_version": "3.7.9",
+            "used_framework": "pytest"
+        },
+        "pandas-28412": {
+            "test_files": {
+                "pytest pandas/tests/series/test_combine_concat.py::TestSeriesCombine::test_append_tuples": "pandas/tests/series/test_combine_concat.py"
+            },
+            "test_funcs": {
+                "pytest pandas/tests/series/test_combine_concat.py::TestSeriesCombine::test_append_tuples": "test_append_tuples"
+            },
+            "py_version": "3.7.9",
+            "used_framework": "pytest"
+        },
+        "pandas-29103": {
+            "test_files": {
+                "pytest pandas/tests/dtypes/cast/test_downcast.py::test_downcast": "pandas/tests/dtypes/cast/test_downcast.py"
+            },
+            "test_funcs": {
+                "pytest pandas/tests/dtypes/cast/test_downcast.py::test_downcast": "test_downcast"
+            },
+            "py_version": "3.7.9",
+            "used_framework": "pytest"
+        },
+        "pandas-30225": {
+            "test_files": {
+                "pytest pandas/tests/indexing/test_categorical.py::TestCategoricalIndex::test_loc_slice": "pandas/tests/indexing/test_categorical.py",
+                "pytest pandas/tests/indexing/test_categorical.py::TestCategoricalIndex::test_loc_with_non_string_categories": "pandas/tests/indexing/test_categorical.py"
+            },
+            "test_funcs": {
+                "pytest pandas/tests/indexing/test_categorical.py::TestCategoricalIndex::test_loc_slice": "test_loc_slice",
+                "pytest pandas/tests/indexing/test_categorical.py::TestCategoricalIndex::test_loc_with_non_string_categories": "test_loc_with_non_string_categories"
+            },
+            "py_version": "3.7.9",
+            "used_framework": "pytest"
+        },
+        "pandas-30532": {
+            "test_files": {
+                "pytest pandas/tests/groupby/test_transform.py::test_pct_change": "pandas/tests/groupby/test_transform.py"
+            },
+            "test_funcs": {
+                "pytest pandas/tests/groupby/test_transform.py::test_pct_change": "test_pct_change"
+            },
+            "py_version": "3.7.9",
+            "used_framework": "pytest"
+        },
+        "pandas-31477": {
+            "test_files": {
+                "pytest pandas/tests/groupby/aggregate/test_aggregate.py::test_groupby_aggregate_period_column": "pandas/tests/groupby/aggregate/test_aggregate.py",
+                "pytest pandas/tests/groupby/aggregate/test_aggregate.py::test_groupby_aggregate_period_frame": "pandas/tests/groupby/aggregate/test_aggregate.py"
+            },
+            "test_funcs": {
+                "pytest pandas/tests/groupby/aggregate/test_aggregate.py::test_groupby_aggregate_period_column": "test_groupby_aggregate_period_column",
+                "pytest pandas/tests/groupby/aggregate/test_aggregate.py::test_groupby_aggregate_period_frame": "test_groupby_aggregate_period_frame"
+            },
+            "py_version": "3.7.9",
+            "used_framework": "pytest"
+        },
+        "pandas-31905": {
+            "test_files": {
+                "pytest pandas/tests/indexing/test_categorical.py::TestCategoricalIndex::test_loc_scalar": "pandas/tests/indexing/test_categorical.py",
+                "pytest pandas/tests/indexing/test_loc.py::TestLoc::test_loc_getitem_int": "pandas/tests/indexing/test_loc.py",
+                "pytest pandas/tests/indexing/test_loc.py::TestLoc::test_loc_getitem_label_out_of_range": "pandas/tests/indexing/test_loc.py",
+                "pytest pandas/tests/indexing/test_loc.py::test_loc_mixed_int_float": "pandas/tests/indexing/test_loc.py",
+                "pytest pandas/tests/indexing/test_scalar.py::TestScalar2::test_series_at_raises_type_error": "pandas/tests/indexing/test_scalar.py",
+                "pytest pandas/tests/indexing/test_scalar.py::TestScalar2::test_frame_raises_key_error": "pandas/tests/indexing/test_scalar.py"
+            },
+            "test_funcs": {
+                "pytest pandas/tests/indexing/test_categorical.py::TestCategoricalIndex::test_loc_scalar": "test_loc_scalar",
+                "pytest pandas/tests/indexing/test_loc.py::TestLoc::test_loc_getitem_int": "test_loc_getitem_int",
+                "pytest pandas/tests/indexing/test_loc.py::TestLoc::test_loc_getitem_label_out_of_range": "test_loc_getitem_label_out_of_range",
+                "pytest pandas/tests/indexing/test_loc.py::test_loc_mixed_int_float": "test_loc_mixed_int_float",
+                "pytest pandas/tests/indexing/test_scalar.py::TestScalar2::test_series_at_raises_type_error": "test_series_at_raises_type_error",
+                "pytest pandas/tests/indexing/test_scalar.py::TestScalar2::test_frame_raises_key_error": "test_frame_raises_key_error"
+            },
+            "py_version": "3.7.9",
+            "used_framework": "pytest"
+        },
+        "pandas-32223": {
+            "test_files": {
+                "pytest pandas/tests/groupby/test_function.py::test_apply_to_nullable_integer_returns_float": "pandas/tests/groupby/test_function.py"
+            },
+            "test_funcs": {
+                "pytest pandas/tests/groupby/test_function.py::test_apply_to_nullable_integer_returns_float": "test_apply_to_nullable_integer_returns_float"
+            },
+            "py_version": "3.7.9",
+            "used_framework": "pytest"
+        },
+        "pandas-32953": {
+            "test_files": {
+                "pytest pandas/tests/reshape/test_concat.py::TestConcatenate::test_concat_mapping": "pandas/tests/reshape/test_concat.py"
+            },
+            "test_funcs": {
+                "pytest pandas/tests/reshape/test_concat.py::TestConcatenate::test_concat_mapping": "test_concat_mapping"
+            },
+            "py_version": "3.7.9",
+            "used_framework": "pytest"
+        },
+        "pandas-33373": {
+            "test_files": {
+                "pytest pandas/tests/io/json/test_pandas.py::TestPandasContainer::test_readjson_bool_series": "pandas/tests/io/json/test_pandas.py"
+            },
+            "test_funcs": {
+                "pytest pandas/tests/io/json/test_pandas.py::TestPandasContainer::test_readjson_bool_series": "test_readjson_bool_series"
+            },
+            "py_version": "3.7.9",
+            "used_framework": "pytest"
+        },
+        "pandas-34220": {
+            "test_files": {
+                "pytest pandas/tests/arrays/sparse/test_array.py::TestSparseArrayAnalytics::test_sum_min_count": "pandas/tests/arrays/sparse/test_array.py"
+            },
+            "test_funcs": {
+                "pytest pandas/tests/arrays/sparse/test_array.py::TestSparseArrayAnalytics::test_sum_min_count": "test_sum_min_count"
+            },
+            "py_version": "3.7.9",
+            "used_framework": "pytest"
+        },
+        "pandas-36950": {
+            "test_files": {
+                "pytest pandas/tests/frame/apply/test_frame_apply.py::TestDataFrameAggregate::test_agg_args_kwargs": "pandas/tests/frame/apply/test_frame_apply.py"
+            },
+            "test_funcs": {
+                "pytest pandas/tests/frame/apply/test_frame_apply.py::TestDataFrameAggregate::test_agg_args_kwargs": "test_agg_args_kwargs"
+            },
+            "py_version": "3.7.9",
+            "used_framework": "pytest"
+        },
+        "pandas-37096": {
+            "test_files": {
+                "pytest pandas/tests/frame/methods/test_combine_first.py::test_combine_first_with_nan_multiindex": "pandas/tests/frame/methods/test_combine_first.py",
+                "pytest pandas/tests/test_sorting.py": "pandas/tests/test_sorting.py"
+            },
+            "test_funcs": {
+                "pytest pandas/tests/frame/methods/test_combine_first.py::test_combine_first_with_nan_multiindex": "test_combine_first_with_nan_multiindex",
+                "pytest pandas/tests/test_sorting.py": ""
+            },
+            "py_version": "3.7.9",
+            "used_framework": "pytest"
+        },
+        "pandas-37736": {
+            "test_files": {
+                "pytest pandas/tests/io/test_html.py::TestReadHtml::test_parse_path_object": "pandas/tests/io/test_html.py"
+            },
+            "test_funcs": {
+                "pytest pandas/tests/io/test_html.py::TestReadHtml::test_parse_path_object": "test_parse_path_object"
+            },
+            "py_version": "3.7.9",
+            "used_framework": "pytest"
+        },
+        "pandas-38220": {
+            "test_files": {
+                "pytest pandas/tests/frame/methods/test_drop.py::TestDataFrameDrop::test_drop_with_non_unique_multiindex": "pandas/tests/frame/methods/test_drop.py"
+            },
+            "test_funcs": {
+                "pytest pandas/tests/frame/methods/test_drop.py::TestDataFrameDrop::test_drop_with_non_unique_multiindex": "test_drop_with_non_unique_multiindex"
+            },
+            "py_version": "3.7.9",
+            "used_framework": "pytest"
+        },
+        "pandas-38431": {
+            "test_files": {
+                "pytest pandas/tests/io/parser/test_parse_dates.py::test_date_parser_and_names": "pandas/tests/io/parser/test_parse_dates.py"
+            },
+            "test_funcs": {
+                "pytest pandas/tests/io/parser/test_parse_dates.py::test_date_parser_and_names": "test_date_parser_and_names"
+            },
+            "py_version": "3.7.9",
+            "used_framework": "pytest"
+        },
+        "pandas-39028-1": {
+            "test_files": {
+                "pytest pandas/tests/frame/apply/test_frame_transform.py::test_transform_mixed_column_name_dtypes": "pandas/tests/frame/apply/test_frame_transform.py",
+                "pytest pandas/tests/resample/test_resample_api.py::test_agg_consistency_int_str_column_mix": "pandas/tests/resample/test_resample_api.py"
+            },
+            "test_funcs": {
+                "pytest pandas/tests/frame/apply/test_frame_transform.py::test_transform_mixed_column_name_dtypes": "test_transform_mixed_column_name_dtypes",
+                "pytest pandas/tests/resample/test_resample_api.py::test_agg_consistency_int_str_column_mix": "test_agg_consistency_int_str_column_mix"
+            },
+            "py_version": "3.7.9",
+            "used_framework": "pytest"
+        },
+        "pandas-39028-2": {
+            "test_files": {
+                "pytest pandas/tests/frame/apply/test_frame_transform.py::test_transform_mixed_column_name_dtypes": "pandas/tests/frame/apply/test_frame_transform.py",
+                "pytest pandas/tests/resample/test_resample_api.py::test_agg_consistency_int_str_column_mix": "pandas/tests/resample/test_resample_api.py"
+            },
+            "test_funcs": {
+                "pytest pandas/tests/frame/apply/test_frame_transform.py::test_transform_mixed_column_name_dtypes": "test_transform_mixed_column_name_dtypes",
+                "pytest pandas/tests/resample/test_resample_api.py::test_agg_consistency_int_str_column_mix": "test_agg_consistency_int_str_column_mix"
+            },
+            "py_version": "3.7.9",
+            "used_framework": "pytest"
+        },
+        "pandas-39095": {
+            "test_files": {
+                "pytest pandas/tests/frame/methods/test_reindex.py::TestDataFrameSelectReindex::test_reindex_frame_tz_ffill_bfill": "pandas/tests/frame/methods/test_reindex.py"
+            },
+            "test_funcs": {
+                "pytest pandas/tests/frame/methods/test_reindex.py::TestDataFrameSelectReindex::test_reindex_frame_tz_ffill_bfill": "test_reindex_frame_tz_ffill_bfill"
+            },
+            "py_version": "3.7.9",
+            "used_framework": "pytest"
+        },
+        "pandas-40180": {
+            "test_files": {
+                "pytest pandas/tests/reductions/test_reductions.py::TestSeriesReductions::test_numpy_all_any": "pandas/tests/reductions/test_reductions.py"
+            },
+            "test_funcs": {
+                "pytest pandas/tests/reductions/test_reductions.py::TestSeriesReductions::test_numpy_all_any": "test_numpy_all_any"
+            },
+            "py_version": "3.7.9",
+            "used_framework": "pytest"
+        },
+        "pandas-41155": {
+            "test_files": {
+                "pytest pandas/tests/groupby/test_counting.py": "pandas/tests/groupby/test_counting.py",
+                "pytest pandas/tests/groupby/test_function.py": "pandas/tests/groupby/test_function.py",
+                "pytest pandas/tests/groupby/test_groupby.py": "pandas/tests/groupby/test_groupby.py",
+                "pytest pandas/tests/groupby/test_rank.py": "pandas/tests/groupby/test_rank.py"
+            },
+            "test_funcs": {
+                "pytest pandas/tests/groupby/test_counting.py": "",
+                "pytest pandas/tests/groupby/test_function.py": "",
+                "pytest pandas/tests/groupby/test_groupby.py": "",
+                "pytest pandas/tests/groupby/test_rank.py": ""
+            },
+            "py_version": "3.7.9",
+            "used_framework": "pytest"
+        },
+        "pandas-41406": {
+            "test_files": {
+                "pytest pandas/tests/indexing/test_datetime.py::TestDatetimeIndex::test_str_subclass": "pandas/tests/indexing/test_datetime.py"
+            },
+            "test_funcs": {
+                "pytest pandas/tests/indexing/test_datetime.py::TestDatetimeIndex::test_str_subclass": "test_str_subclass"
+            },
+            "py_version": "3.7.9",
+            "used_framework": "pytest"
+        }
+    },
+    "rasa": {
+        "rasa-8704": {
+            "test_files": {
+                "poetry run pytest tests/nlu/test_model.py::test_exception_pickling": "tests/nlu/test_model.py"
+            },
+            "test_funcs": {
+                "poetry run pytest tests/nlu/test_model.py::test_exception_pickling": "test_exception_pickling"
+            },
+            "py_version": "3.7.9",
+            "used_framework": "pytest"
+        }
+    },
+    "requests": {
+        "requests-3179": {
+            "test_files": {
+                "pytest tests/test_requests.py::TestRequests": "tests/test_requests.py"
+            },
+            "test_funcs": {
+                "pytest tests/test_requests.py::TestRequests": "TestRequests"
+            },
+            "py_version": "3.6",
+            "used_framework": "pytest"
+        },
+        "requests-3368": {
+            "test_files": {
+                "pytest tests/test_requests.py::TestRequests::test_response_chunk_size_type": "tests/test_requests.py"
+            },
+            "test_funcs": {
+                "pytest tests/test_requests.py::TestRequests::test_response_chunk_size_type": "test_response_chunk_size_type"
+            },
+            "py_version": "3.6",
+            "used_framework": "pytest"
+        },
+        "requests-3390": {
+            "test_files": {
+                "pytest tests/test_requests.py::TestRequests::test_header_validation": "tests/test_requests.py",
+                "pytest tests/test_requests.py::TestRequests::test_header_value_not_str": "tests/test_requests.py"
+            },
+            "test_funcs": {
+                "pytest tests/test_requests.py::TestRequests::test_header_validation": "test_header_validation",
+                "pytest tests/test_requests.py::TestRequests::test_header_value_not_str": "test_header_value_not_str"
+            },
+            "py_version": "3.6",
+            "used_framework": "pytest"
+        },
+        "requests-4723": {
+            "test_files": {
+                "pytest tests/test_utils.py::test_should_bypass_proxies": "tests/test_utils.py"
+            },
+            "test_funcs": {
+                "pytest tests/test_utils.py::test_should_bypass_proxies": "test_should_bypass_proxies"
+            },
+            "py_version": "3.6.9",
+            "used_framework": "pytest"
+        }
+    },
+    "rich": {
+        "rich-919": {
+            "test_files": {
+                "poetry run pytest tests/test_inspect.py::test_broken_call_attr": "tests/test_inspect.py"
+            },
+            "test_funcs": {
+                "poetry run pytest tests/test_inspect.py::test_broken_call_attr": "test_broken_call_attr"
+            },
+            "py_version": "3.8.1",
+            "used_framework": "pytest"
+        }
+    },
+    "salt": {
+        "salt-33908": {
+            "test_files": {
+                "pytest tests/unit/states/boto_lambda_test.py::BotoLambdaFunctionTestCase::test_present_when_function_exists_and_permissions": "tests/unit/states/boto_lambda_test.py"
+            },
+            "test_funcs": {
+                "pytest tests/unit/states/boto_lambda_test.py::BotoLambdaFunctionTestCase::test_present_when_function_exists_and_permissions": "test_present_when_function_exists_and_permissions"
+            },
+            "py_version": "2.7.18",
+            "used_framework": "pytest"
+        },
+        "salt-38947": {
+            "test_files": {
+                "PYTHONPATH=./tests pytest tests/unit/ssh/ssh_single_test.py": "tests/unit/ssh/ssh_single_test.py"
+            },
+            "test_funcs": {
+                "PYTHONPATH=./tests pytest tests/unit/ssh/ssh_single_test.py": ""
+            },
+            "py_version": "2.7.18",
+            "used_framework": "pytest"
+        },
+        "salt-50958": {
+            "test_files": {
+                "pytest tests/unit/modules/test_twilio_notify.py": "tests/unit/modules/test_twilio_notify.py"
+            },
+            "test_funcs": {
+                "pytest tests/unit/modules/test_twilio_notify.py": ""
+            },
+            "py_version": "3.6",
+            "used_framework": "pytest"
+        },
+        "salt-53394": {
+            "test_files": {
+                "pytest tests/unit/utils/test_http.py::HTTPTestCase::test_query_null_response": "tests/unit/utils/test_http.py"
+            },
+            "test_funcs": {
+                "pytest tests/unit/utils/test_http.py::HTTPTestCase::test_query_null_response": "test_query_null_response"
+            },
+            "py_version": "3.6.9",
+            "used_framework": "pytest"
+        },
+        "salt-54240": {
+            "test_files": {
+                "pytest tests/unit/cloud/clouds/test_ec2.py::EC2TestCase::test_get_imageid": "tests/unit/cloud/clouds/test_ec2.py"
+            },
+            "test_funcs": {
+                "pytest tests/unit/cloud/clouds/test_ec2.py::EC2TestCase::test_get_imageid": "test_get_imageid"
+            },
+            "py_version": "3.6.9",
+            "used_framework": "pytest"
+        },
+        "salt-54785": {
+            "test_files": {
+                "pytest tests/unit/modules/test_state.py::StateTestCase::test_show_states_missing_sls": "tests/unit/modules/test_state.py"
+            },
+            "test_funcs": {
+                "pytest tests/unit/modules/test_state.py::StateTestCase::test_show_states_missing_sls": "test_show_states_missing_sls"
+            },
+            "py_version": "3.6.9",
+            "used_framework": "pytest"
+        },
+        "salt-56094": {
+            "test_files": {
+                "pytest tests/unit/test_ext.py::VendorTornadoTest::test_regression_56063": "tests/unit/test_ext.py"
+            },
+            "test_funcs": {
+                "pytest tests/unit/test_ext.py::VendorTornadoTest::test_regression_56063": "test_regression_56063"
+            },
+            "py_version": "3.6.9",
+            "used_framework": "pytest"
+        }
+    },
+    "sanic": {
+        "sanic-1334": {
+            "test_files": {
+                "pytest tests/test_blueprints.py::test_bp_group_with_default_url_prefix": "tests/test_blueprints.py"
+            },
+            "test_funcs": {
+                "pytest tests/test_blueprints.py::test_bp_group_with_default_url_prefix": "test_bp_group_with_default_url_prefix"
+            },
+            "py_version": "3.7.9",
+            "used_framework": "pytest"
+        },
+        "sanic-2008-1": {
+            "test_files": {
+                "pytest tests/test_static.py::test_static_file_pathlib": "tests/test_static.py",
+                "pytest tests/test_static.py::test_static_file_bytes": "tests/test_static.py",
+                "pytest tests/test_static.py::test_static_file_invalid_path # \uc598\ub9cc \ud0c0\uc785\uc5d0\ub7ec \ubc1c\uc0dd": "tests/test_static.py"
+            },
+            "test_funcs": {
+                "pytest tests/test_static.py::test_static_file_pathlib": "test_static_file_pathlib",
+                "pytest tests/test_static.py::test_static_file_bytes": "test_static_file_bytes",
+                "pytest tests/test_static.py::test_static_file_invalid_path # \uc598\ub9cc \ud0c0\uc785\uc5d0\ub7ec \ubc1c\uc0dd": "test_static_file_invalid_path # \uc598\ub9cc \ud0c0\uc785\uc5d0\ub7ec \ubc1c\uc0dd"
+            },
+            "py_version": "3.7.9",
+            "used_framework": "pytest"
+        }
+    },
+    "scikit-learn": {
+        "scikit-learn-12603": {
+            "test_files": {
+                "pytest sklearn/gaussian_process/tests/test_kernels.py::test_rational_quadratic_kernel": "sklearn/gaussian_process/tests/test_kernels.py"
+            },
+            "test_funcs": {
+                "pytest sklearn/gaussian_process/tests/test_kernels.py::test_rational_quadratic_kernel": "test_rational_quadratic_kernel"
+            },
+            "py_version": "3.6",
+            "used_framework": "pytest"
+        },
+        "scikit-learn-17233": {
+            "test_files": {
+                "pytest sklearn/tests/test_multiclass.py::test_ecoc_delegate_sparse_base_estimator": "sklearn/tests/test_multiclass.py"
+            },
+            "test_funcs": {
+                "pytest sklearn/tests/test_multiclass.py::test_ecoc_delegate_sparse_base_estimator": "test_ecoc_delegate_sparse_base_estimator"
+            },
+            "py_version": "3.7.9",
+            "used_framework": "pytest"
+        },
+        "scikit-learn-7064": {
+            "test_files": {
+                "pytest sklearn/svm/tests/test_svm.py::test_unicode_kernel": "sklearn/svm/tests/test_svm.py"
+            },
+            "test_funcs": {
+                "pytest sklearn/svm/tests/test_svm.py::test_unicode_kernel": "test_unicode_kernel"
+            },
+            "py_version": "3.6",
+            "used_framework": "pytest"
+        },
+        "scikit-learn-7259": {
+            "test_files": {
+                "pytest sklearn/gaussian_process/tests/test_kernels.py::test_repr_kernels": "sklearn/gaussian_process/tests/test_kernels.py"
+            },
+            "test_funcs": {
+                "pytest sklearn/gaussian_process/tests/test_kernels.py::test_repr_kernels": "test_repr_kernels"
+            },
+            "py_version": "3.6",
+            "used_framework": "pytest"
+        },
+        "scikit-learn-8973": {
+            "test_files": {
+                "pytest sklearn/linear_model/tests/test_coordinate_descent.py::test_lasso_cv_with_some_model_selection": "sklearn/linear_model/tests/test_coordinate_descent.py"
+            },
+            "test_funcs": {
+                "pytest sklearn/linear_model/tests/test_coordinate_descent.py::test_lasso_cv_with_some_model_selection": "test_lasso_cv_with_some_model_selection"
+            },
+            "py_version": "3.6",
+            "used_framework": "pytest"
+        }
+    },
+    "tornado": {
+        "tornado-1689": {
+            "test_files": {
+                "pytest tornado/test/web_test.py::XSRFTest::test_xsrf_fail_argument_invalid_format": "tornado/test/web_test.py",
+                "pytest tornado/test/web_test.py::XSRFTest::test_xsrf_fail_cookie_invalid_format": "tornado/test/web_test.py"
+            },
+            "test_funcs": {
+                "pytest tornado/test/web_test.py::XSRFTest::test_xsrf_fail_argument_invalid_format": "test_xsrf_fail_argument_invalid_format",
+                "pytest tornado/test/web_test.py::XSRFTest::test_xsrf_fail_cookie_invalid_format": "test_xsrf_fail_cookie_invalid_format"
+            },
+            "py_version": "3.6",
+            "used_framework": "pytest"
+        }
+    }
+}

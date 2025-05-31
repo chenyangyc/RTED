@@ -1,0 +1,2769 @@
+{
+    "bugsinpy": {
+        "ansible_1": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/ansible/1/buggy/",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/ansible/1/fixed/",
+            "src_path": "lib/ansible",
+            "env_name": "ansible_1_env",
+            "base_module_name": "ansible.",
+            "test_funcs": {
+                "pytest test/units/galaxy/test_collection.py::test_verify_collections_no_version": "test_verify_collections_no_version"
+            },
+            "test_files": {
+                "pytest test/units/galaxy/test_collection.py::test_verify_collections_no_version": "test/units/galaxy/test_collection.py"
+            },
+            "used_framework": "pytest"
+        },
+        "fastapi_7": {
+            "py_version": "3.8.3",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/fastapi/7/buggy/",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/fastapi/7/fixed/",
+            "src_path": "fastapi",
+            "env_name": "fastapi_7_env",
+            "base_module_name": "fastapi.",
+            "test_funcs": {
+                "pytest tests/test_multi_body_errors.py::test_jsonable_encoder_requiring_error": "test_jsonable_encoder_requiring_error"
+            },
+            "test_files": {
+                "pytest tests/test_multi_body_errors.py::test_jsonable_encoder_requiring_error": "tests/test_multi_body_errors.py"
+            },
+            "used_framework": "pytest"
+        },
+        "keras_22": {
+            "py_version": "3.7.3",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/keras/22/buggy/",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/keras/22/fixed/",
+            "src_path": "keras",
+            "env_name": "keras_22_env",
+            "base_module_name": "keras.",
+            "test_funcs": {
+                "pytest tests/keras/layers/core_test.py::test_sequential_as_downstream_of_masking_layer": "test_sequential_as_downstream_of_masking_layer"
+            },
+            "test_files": {
+                "pytest tests/keras/layers/core_test.py::test_sequential_as_downstream_of_masking_layer": "tests/keras/layers/core_test.py"
+            },
+            "used_framework": "pytest"
+        },
+        "keras_34": {
+            "py_version": "3.7.3",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/keras/34/buggy/",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/keras/34/fixed/",
+            "src_path": "keras",
+            "env_name": "keras_34_env",
+            "base_module_name": "keras.",
+            "test_funcs": {
+                "pytest tests/test_multiprocessing.py::test_multiprocessing_training": "test_multiprocessing_training"
+            },
+            "test_files": {
+                "pytest tests/test_multiprocessing.py::test_multiprocessing_training": "tests/test_multiprocessing.py"
+            },
+            "used_framework": "pytest"
+        },
+        "keras_39": {
+            "py_version": "3.7.3",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/keras/39/buggy/",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/keras/39/fixed/",
+            "src_path": "keras",
+            "env_name": "keras_39_env",
+            "base_module_name": "keras.",
+            "test_funcs": {
+                "pytest tests/keras/utils/generic_utils_test.py::test_progbar": "test_progbar"
+            },
+            "test_files": {
+                "pytest tests/keras/utils/generic_utils_test.py::test_progbar": "tests/keras/utils/generic_utils_test.py"
+            },
+            "used_framework": "pytest"
+        },
+        "keras_4": {
+            "py_version": "3.7.3",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/keras/4/buggy/",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/keras/4/fixed/",
+            "src_path": "keras",
+            "env_name": "keras_4_env",
+            "base_module_name": "keras.",
+            "test_funcs": {
+                "pytest tests/keras/optimizers_test.py::test_tfoptimizer_pass_correct_named_params_to_native_tensorflow_optimizer": "test_tfoptimizer_pass_correct_named_params_to_native_tensorflow_optimizer"
+            },
+            "test_files": {
+                "pytest tests/keras/optimizers_test.py::test_tfoptimizer_pass_correct_named_params_to_native_tensorflow_optimizer": "tests/keras/optimizers_test.py"
+            },
+            "used_framework": "pytest"
+        },
+        "luigi_14": {
+            "py_version": "3.8.3",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/luigi/14/buggy/",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/luigi/14/fixed/",
+            "src_path": "luigi",
+            "env_name": "luigi_14_env",
+            "base_module_name": "luigi.",
+            "test_funcs": {
+                "pytest test/central_planner_test.py::CentralPlannerTest::test_no_crash_on_only_disable_hard_timeout": "test_no_crash_on_only_disable_hard_timeout"
+            },
+            "test_files": {
+                "pytest test/central_planner_test.py::CentralPlannerTest::test_no_crash_on_only_disable_hard_timeout": "test/central_planner_test.py"
+            },
+            "used_framework": "pytest"
+        },
+        "luigi_22": {
+            "py_version": "3.8.3",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/luigi/22/buggy/",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/luigi/22/fixed/",
+            "src_path": "luigi",
+            "env_name": "luigi_22_env",
+            "base_module_name": "luigi.",
+            "test_funcs": {
+                "pytest test/scheduler_test.py::SchedulerTest::test_worker_prune_after_init": "test_worker_prune_after_init"
+            },
+            "test_files": {
+                "pytest test/scheduler_test.py::SchedulerTest::test_worker_prune_after_init": "test/scheduler_test.py"
+            },
+            "used_framework": "pytest"
+        },
+        "luigi_25": {
+            "py_version": "3.8.3",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/luigi/25/buggy/",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/luigi/25/fixed/",
+            "src_path": "luigi",
+            "env_name": "luigi_25_env",
+            "base_module_name": "luigi.",
+            "test_funcs": {
+                "pytest test/contrib/redshift_test.py::TestS3CopyToTable::test_s3_copy_to_table": "test_s3_copy_to_table"
+            },
+            "test_files": {
+                "pytest test/contrib/redshift_test.py::TestS3CopyToTable::test_s3_copy_to_table": "test/contrib/redshift_test.py"
+            },
+            "used_framework": "pytest"
+        },
+        "luigi_26": {
+            "py_version": "3.8.3",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/luigi/26/buggy/",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/luigi/26/fixed/",
+            "src_path": "luigi",
+            "env_name": "luigi_26_env",
+            "base_module_name": "luigi.",
+            "test_funcs": {
+                "pytest test/contrib/hadoop_jar_test.py::HadoopJarJobTaskTest::test_missing_jar": "test_missing_jar"
+            },
+            "test_files": {
+                "pytest test/contrib/hadoop_jar_test.py::HadoopJarJobTaskTest::test_missing_jar": "test/contrib/hadoop_jar_test.py"
+            },
+            "used_framework": "pytest"
+        },
+        "luigi_3": {
+            "py_version": "3.8.3",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/luigi/3/buggy/",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/luigi/3/fixed/",
+            "src_path": "luigi",
+            "env_name": "luigi_3_env",
+            "base_module_name": "luigi.",
+            "test_funcs": {
+                "pytest test/parameter_test.py::TestSerializeTupleParameter::testSerialize": "testSerialize"
+            },
+            "test_files": {
+                "pytest test/parameter_test.py::TestSerializeTupleParameter::testSerialize": "test/parameter_test.py"
+            },
+            "used_framework": "pytest"
+        },
+        "luigi_4": {
+            "py_version": "3.8.3",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/luigi/4/buggy/",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/luigi/4/fixed/",
+            "src_path": "luigi",
+            "env_name": "luigi_4_env",
+            "base_module_name": "luigi.",
+            "test_funcs": {
+                "pytest test/contrib/redshift_test.py::TestS3CopyToTable::test_s3_copy_with_nonetype_columns": "test_s3_copy_with_nonetype_columns"
+            },
+            "test_files": {
+                "pytest test/contrib/redshift_test.py::TestS3CopyToTable::test_s3_copy_with_nonetype_columns": "test/contrib/redshift_test.py"
+            },
+            "used_framework": "pytest"
+        },
+        "luigi_6": {
+            "py_version": "3.8.3",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/luigi/6/buggy/",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/luigi/6/fixed/",
+            "src_path": "luigi",
+            "env_name": "luigi_6_env",
+            "base_module_name": "luigi.",
+            "test_funcs": {
+                "pytest test/parameter_test.py::TestParametersHashability::test_list_dict": "test_list_dict",
+                "pytest test/parameter_test.py::TestParametersHashability::test_tuple_dict": "test_tuple_dict"
+            },
+            "test_files": {
+                "pytest test/parameter_test.py::TestParametersHashability::test_list_dict": "test/parameter_test.py",
+                "pytest test/parameter_test.py::TestParametersHashability::test_tuple_dict": "test/parameter_test.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas_106": {
+            "py_version": "3.8.3",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/pandas/106/buggy/",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/pandas/106/fixed/",
+            "src_path": "pandas",
+            "env_name": "pandas_106_env",
+            "base_module_name": "pandas.",
+            "test_funcs": {
+                "pytest pandas/tests/indexes/multi/test_drop.py::test_drop_with_non_unique_datetime_index_and_invalid_keys": "test_drop_with_non_unique_datetime_index_and_invalid_keys"
+            },
+            "test_files": {
+                "pytest pandas/tests/indexes/multi/test_drop.py::test_drop_with_non_unique_datetime_index_and_invalid_keys": "pandas/tests/indexes/multi/test_drop.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas_111": {
+            "py_version": "3.8.3",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/pandas/111/buggy/",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/pandas/111/fixed/",
+            "src_path": "pandas",
+            "env_name": "pandas_111_env",
+            "base_module_name": "pandas.",
+            "test_funcs": {
+                "pytest pandas/tests/indexing/test_categorical.py::TestCategoricalIndex::test_loc_with_non_string_categories": "test_loc_with_non_string_categories",
+                "pytest pandas/tests/indexing/test_floats.py::TestFloatIndexers::test_scalar_non_numeric": "test_scalar_non_numeric"
+            },
+            "test_files": {
+                "pytest pandas/tests/indexing/test_categorical.py::TestCategoricalIndex::test_loc_with_non_string_categories": "pandas/tests/indexing/test_categorical.py",
+                "pytest pandas/tests/indexing/test_floats.py::TestFloatIndexers::test_scalar_non_numeric": "pandas/tests/indexing/test_floats.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas_112": {
+            "py_version": "3.8.3",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/pandas/112/buggy/",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/pandas/112/fixed/",
+            "src_path": "pandas",
+            "env_name": "pandas_112_env",
+            "base_module_name": "pandas.",
+            "test_funcs": {
+                "pytest pandas/tests/frame/test_analytics.py::TestDataFrameAnalytics::test_round_interval_category_columns": "test_round_interval_category_columns"
+            },
+            "test_files": {
+                "pytest pandas/tests/frame/test_analytics.py::TestDataFrameAnalytics::test_round_interval_category_columns": "pandas/tests/frame/test_analytics.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas_12": {
+            "py_version": "3.8.3",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/pandas/12/buggy/",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/pandas/12/fixed/",
+            "src_path": "pandas",
+            "env_name": "pandas_12_env",
+            "base_module_name": "pandas.",
+            "test_funcs": {
+                "pytest pandas/tests/frame/methods/test_cov_corr.py::TestDataFrameCov::test_cov_nullable_integer": "test_cov_nullable_integer"
+            },
+            "test_files": {
+                "pytest pandas/tests/frame/methods/test_cov_corr.py::TestDataFrameCov::test_cov_nullable_integer": "pandas/tests/frame/methods/test_cov_corr.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas_138": {
+            "py_version": "3.8.3",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/pandas/138/buggy/",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/pandas/138/fixed/",
+            "src_path": "pandas",
+            "env_name": "pandas_138_env",
+            "base_module_name": "pandas.",
+            "test_funcs": {
+                "pytest pandas/tests/reshape/test_qcut.py::test_qcut_bool_coercion_to_int": "test_qcut_bool_coercion_to_int"
+            },
+            "test_files": {
+                "pytest pandas/tests/reshape/test_qcut.py::test_qcut_bool_coercion_to_int": "pandas/tests/reshape/test_qcut.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas_145": {
+            "py_version": "3.8.3",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/pandas/145/buggy/",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/pandas/145/fixed/",
+            "src_path": "pandas",
+            "env_name": "pandas_145_env",
+            "base_module_name": "pandas.",
+            "test_funcs": {
+                "pytest pandas/tests/frame/test_arithmetic.py::TestFrameArithmetic::test_td64_op_nat_casting": "test_td64_op_nat_casting"
+            },
+            "test_files": {
+                "pytest pandas/tests/frame/test_arithmetic.py::TestFrameArithmetic::test_td64_op_nat_casting": "pandas/tests/frame/test_arithmetic.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas_146": {
+            "py_version": "3.8.3",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/pandas/146/buggy/",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/pandas/146/fixed/",
+            "src_path": "pandas",
+            "env_name": "pandas_146_env",
+            "base_module_name": "pandas.",
+            "test_funcs": {
+                "pytest pandas/tests/dtypes/test_missing.py::test_array_equivalent_tzawareness": "test_array_equivalent_tzawareness"
+            },
+            "test_files": {
+                "pytest pandas/tests/dtypes/test_missing.py::test_array_equivalent_tzawareness": "pandas/tests/dtypes/test_missing.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas_158": {
+            "py_version": "3.8.3",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/pandas/158/buggy/",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/pandas/158/fixed/",
+            "src_path": "pandas",
+            "env_name": "pandas_158_env",
+            "base_module_name": "pandas.",
+            "test_funcs": {
+                "pytest pandas/tests/series/test_alter_axes.py::TestSeriesAlterAxes::test_rename_with_custom_indexer": "test_rename_with_custom_indexer",
+                "pytest pandas/tests/series/test_alter_axes.py::TestSeriesAlterAxes::test_rename_with_custom_indexer_inplace": "test_rename_with_custom_indexer_inplace"
+            },
+            "test_files": {
+                "pytest pandas/tests/series/test_alter_axes.py::TestSeriesAlterAxes::test_rename_with_custom_indexer": "pandas/tests/series/test_alter_axes.py",
+                "pytest pandas/tests/series/test_alter_axes.py::TestSeriesAlterAxes::test_rename_with_custom_indexer_inplace": "pandas/tests/series/test_alter_axes.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas_31": {
+            "py_version": "3.8.3",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/pandas/31/buggy/",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/pandas/31/fixed/",
+            "src_path": "pandas",
+            "env_name": "pandas_31_env",
+            "base_module_name": "pandas.",
+            "test_funcs": {
+                "pytest pandas/tests/groupby/test_function.py::test_groupby_quantile_nullable_array": "test_groupby_quantile_nullable_array"
+            },
+            "test_files": {
+                "pytest pandas/tests/groupby/test_function.py::test_groupby_quantile_nullable_array": "pandas/tests/groupby/test_function.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas_36": {
+            "py_version": "3.8.3",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/pandas/36/buggy/",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/pandas/36/fixed/",
+            "src_path": "pandas",
+            "env_name": "pandas_36_env",
+            "base_module_name": "pandas.",
+            "test_funcs": {
+                "pytest pandas/tests/dtypes//test_missing.py::TestIsNA::test_isna_old_datetimelike": "test_isna_old_datetimelike"
+            },
+            "test_files": {
+                "pytest pandas/tests/dtypes//test_missing.py::TestIsNA::test_isna_old_datetimelike": "pandas/tests/dtypes//test_missing.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas_48": {
+            "py_version": "3.8.3",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/pandas/48/buggy/",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/pandas/48/fixed/",
+            "src_path": "pandas",
+            "env_name": "pandas_48_env",
+            "base_module_name": "pandas.",
+            "test_funcs": {
+                "pytest pandas/tests/groupby/test_function.py::test_apply_to_nullable_integer_returns_float": "test_apply_to_nullable_integer_returns_float"
+            },
+            "test_files": {
+                "pytest pandas/tests/groupby/test_function.py::test_apply_to_nullable_integer_returns_float": "pandas/tests/groupby/test_function.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas_49": {
+            "py_version": "3.8.3",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/pandas/49/buggy/",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/pandas/49/fixed/",
+            "src_path": "pandas",
+            "env_name": "pandas_49_env",
+            "base_module_name": "pandas.",
+            "test_funcs": {
+                "pytest pandas/tests/test_strings.py::TestStringMethods::test_repeat_with_null": "test_repeat_with_null"
+            },
+            "test_files": {
+                "pytest pandas/tests/test_strings.py::TestStringMethods::test_repeat_with_null": "pandas/tests/test_strings.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas_71": {
+            "py_version": "3.8.3",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/pandas/71/buggy/",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/pandas/71/fixed/",
+            "src_path": "pandas",
+            "env_name": "pandas_71_env",
+            "base_module_name": "pandas.",
+            "test_funcs": {
+                "pytest pandas/tests/arrays/test_integer.py::test_cut": "test_cut"
+            },
+            "test_files": {
+                "pytest pandas/tests/arrays/test_integer.py::test_cut": "pandas/tests/arrays/test_integer.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas_79": {
+            "py_version": "3.8.3",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/pandas/79/buggy/",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/pandas/79/fixed/",
+            "src_path": "pandas",
+            "env_name": "pandas_79_env",
+            "base_module_name": "pandas.",
+            "test_funcs": {
+                "pytest pandas/tests/indexes/datetimes/test_indexing.py::TestDatetimeIndex::test_get_loc": "test_get_loc"
+            },
+            "test_files": {
+                "pytest pandas/tests/indexes/datetimes/test_indexing.py::TestDatetimeIndex::test_get_loc": "pandas/tests/indexes/datetimes/test_indexing.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas_99": {
+            "py_version": "3.8.3",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/pandas/99/buggy/",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/pandas/99/fixed/",
+            "src_path": "pandas",
+            "env_name": "pandas_99_env",
+            "base_module_name": "pandas.",
+            "test_funcs": {
+                "pytest pandas/tests/indexes/datetimes/test_tools.py::test_nullable_integer_to_datetime": "test_nullable_integer_to_datetime"
+            },
+            "test_files": {
+                "pytest pandas/tests/indexes/datetimes/test_tools.py::test_nullable_integer_to_datetime": "pandas/tests/indexes/datetimes/test_tools.py"
+            },
+            "used_framework": "pytest"
+        },
+        "scrapy_1": {
+            "py_version": "3.8.3",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/scrapy/1/buggy/",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/scrapy/1/fixed/",
+            "src_path": "scrapy",
+            "env_name": "scrapy_1_env",
+            "base_module_name": "scrapy.",
+            "test_funcs": {
+                "python -m unittest -q tests.test_spidermiddleware_offsite.TestOffsiteMiddleware4._get_spiderargs": "_get_spiderargs",
+                "python -m unittest -q tests.test_spidermiddleware_offsite.TestOffsiteMiddleware4.test_process_spider_output": "test_process_spider_output"
+            },
+            "test_files": {
+                "python -m unittest -q tests.test_spidermiddleware_offsite.TestOffsiteMiddleware4._get_spiderargs": "tests/test_spidermiddleware_offsite.py",
+                "python -m unittest -q tests.test_spidermiddleware_offsite.TestOffsiteMiddleware4.test_process_spider_output": "tests/test_spidermiddleware_offsite.py"
+            },
+            "used_framework": "unittest"
+        },
+        "scrapy_17": {
+            "py_version": "3.8.3",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/scrapy/17/buggy/",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/scrapy/17/fixed/",
+            "src_path": "scrapy",
+            "env_name": "scrapy_17_env",
+            "base_module_name": "scrapy.",
+            "test_funcs": {
+                "python -m unittest -q tests.test_utils_response.ResponseUtilsTest.test_response_status_message": "test_response_status_message"
+            },
+            "test_files": {
+                "python -m unittest -q tests.test_utils_response.ResponseUtilsTest.test_response_status_message": "tests/test_utils_response.py"
+            },
+            "used_framework": "unittest"
+        },
+        "scrapy_2": {
+            "py_version": "3.8.3",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/scrapy/2/buggy/",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/scrapy/2/fixed/",
+            "src_path": "scrapy",
+            "env_name": "scrapy_2_env",
+            "base_module_name": "scrapy.",
+            "test_funcs": {
+                "python -m unittest -q tests.test_utils_datatypes.LocalCacheTest.test_cache_without_limit": "test_cache_without_limit"
+            },
+            "test_files": {
+                "python -m unittest -q tests.test_utils_datatypes.LocalCacheTest.test_cache_without_limit": "tests/test_utils_datatypes.py"
+            },
+            "used_framework": "unittest"
+        },
+        "scrapy_20": {
+            "py_version": "3.8.3",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/scrapy/20/buggy/",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/scrapy/20/fixed/",
+            "src_path": "scrapy",
+            "env_name": "scrapy_20_env",
+            "base_module_name": "scrapy.",
+            "test_funcs": {
+                "python -m unittest -q tests.test_spider.SitemapSpiderTest.test_get_sitemap_urls_from_robotstxt": "test_get_sitemap_urls_from_robotstxt"
+            },
+            "test_files": {
+                "python -m unittest -q tests.test_spider.SitemapSpiderTest.test_get_sitemap_urls_from_robotstxt": "tests/test_spider.py"
+            },
+            "used_framework": "unittest"
+        },
+        "scrapy_23": {
+            "py_version": "3.8.3",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/scrapy/23/buggy/",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/scrapy/23/fixed/",
+            "src_path": "scrapy",
+            "env_name": "scrapy_23_env",
+            "base_module_name": "scrapy.",
+            "test_funcs": {
+                "python -m unittest -q tests.test_downloadermiddleware_httpproxy.TestDefaultHeadersMiddleware.test_proxy_auth": "test_proxy_auth",
+                "python -m unittest -q tests.test_downloadermiddleware_httpproxy.TestDefaultHeadersMiddleware.test_proxy_auth_empty_passwd": "test_proxy_auth_empty_passwd"
+            },
+            "test_files": {
+                "python -m unittest -q tests.test_downloadermiddleware_httpproxy.TestDefaultHeadersMiddleware.test_proxy_auth": "tests/test_downloadermiddleware_httpproxy.py",
+                "python -m unittest -q tests.test_downloadermiddleware_httpproxy.TestDefaultHeadersMiddleware.test_proxy_auth_empty_passwd": "tests/test_downloadermiddleware_httpproxy.py"
+            },
+            "used_framework": "unittest"
+        },
+        "scrapy_27": {
+            "py_version": "3.8.3",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/scrapy/27/buggy/",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/scrapy/27/fixed/",
+            "src_path": "scrapy",
+            "env_name": "scrapy_27_env",
+            "base_module_name": "scrapy.",
+            "test_funcs": {
+                "python -m unittest -q tests.test_downloadermiddleware_redirect.RedirectMiddlewareTest.test_request_meta_handling": "test_request_meta_handling"
+            },
+            "test_files": {
+                "python -m unittest -q tests.test_downloadermiddleware_redirect.RedirectMiddlewareTest.test_request_meta_handling": "tests/test_downloadermiddleware_redirect.py"
+            },
+            "used_framework": "unittest"
+        },
+        "scrapy_29": {
+            "py_version": "3.8.3",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/scrapy/29/buggy/",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/scrapy/29/fixed/",
+            "src_path": "scrapy",
+            "env_name": "scrapy_29_env",
+            "base_module_name": "scrapy.",
+            "test_funcs": {
+                "python -m unittest -q tests.test_utils_request.UtilsRequestTest.test_request_httprepr_for_non_http_request": "test_request_httprepr_for_non_http_request"
+            },
+            "test_files": {
+                "python -m unittest -q tests.test_utils_request.UtilsRequestTest.test_request_httprepr_for_non_http_request": "tests/test_utils_request.py"
+            },
+            "used_framework": "unittest"
+        },
+        "scrapy_30": {
+            "py_version": "3.8.3",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/scrapy/30/buggy/",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/scrapy/30/fixed/",
+            "src_path": "scrapy",
+            "env_name": "scrapy_30_env",
+            "base_module_name": "scrapy.",
+            "test_funcs": {
+                "python -m unittest -q tests.test_command_version.VersionTest.test_output": "test_output"
+            },
+            "test_files": {
+                "python -m unittest -q tests.test_command_version.VersionTest.test_output": "tests/test_command_version.py"
+            },
+            "used_framework": "unittest"
+        },
+        "scrapy_40": {
+            "py_version": "3.8.3",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/scrapy/40/buggy/",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/scrapy/40/fixed/",
+            "src_path": "scrapy",
+            "env_name": "scrapy_40_env",
+            "base_module_name": "scrapy.",
+            "test_funcs": {
+                "python -m unittest -q tests.test_exporters.PythonItemExporterTest.test_other_python_types_item": "test_other_python_types_item"
+            },
+            "test_files": {
+                "python -m unittest -q tests.test_exporters.PythonItemExporterTest.test_other_python_types_item": "tests/test_exporters.py"
+            },
+            "used_framework": "unittest"
+        },
+        "scrapy_8": {
+            "py_version": "3.8.3",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/scrapy/8/buggy/",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/scrapy/8/fixed/",
+            "src_path": "scrapy",
+            "env_name": "scrapy_8_env",
+            "base_module_name": "scrapy.",
+            "test_funcs": {
+                "python -m unittest -q tests.test_item.ItemMetaTest.test_new_method_propagates_classcell": "test_new_method_propagates_classcell",
+                "python -m unittest -q tests.test_item.ItemMetaClassCellRegression.test_item_meta_classcell_regression": "test_item_meta_classcell_regression"
+            },
+            "test_files": {
+                "python -m unittest -q tests.test_item.ItemMetaTest.test_new_method_propagates_classcell": "tests/test_item.py",
+                "python -m unittest -q tests.test_item.ItemMetaClassCellRegression.test_item_meta_classcell_regression": "tests/test_item.py"
+            },
+            "used_framework": "unittest"
+        },
+        "spacy_5": {
+            "py_version": "3.7.7",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/spacy/5/buggy/",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/spacy/5/fixed/",
+            "src_path": "spacy",
+            "env_name": "spacy_5_env",
+            "base_module_name": "spacy.",
+            "test_funcs": {
+                "py.test spacy/tests/test_language.py::test_evaluate_no_pipe": "test_evaluate_no_pipe"
+            },
+            "test_files": {
+                "py.test spacy/tests/test_language.py::test_evaluate_no_pipe": "spacy/tests/test_language.py"
+            },
+            "used_framework": "py.test"
+        },
+        "tornado_7": {
+            "py_version": "3.7.0",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/tornado/7/buggy/",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/tornado/7/fixed/",
+            "src_path": "tornado",
+            "env_name": "tornado_7_env",
+            "base_module_name": "tornado.",
+            "test_funcs": {
+                "python -m unittest -q tornado.test.ioloop_test.TestIOLoopFutures.test_run_in_executor_native": "test_run_in_executor_native"
+            },
+            "test_files": {
+                "python -m unittest -q tornado.test.ioloop_test.TestIOLoopFutures.test_run_in_executor_native": "tornado/test/ioloop_test.py"
+            },
+            "used_framework": "unittest"
+        },
+        "tornado_9": {
+            "py_version": "3.7.0",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/tornado/9/buggy/",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/tornado/9/fixed/",
+            "src_path": "tornado",
+            "env_name": "tornado_9_env",
+            "base_module_name": "tornado.",
+            "test_funcs": {
+                "python -m unittest -q tornado.test.httputil_test.TestUrlConcat.test_url_concat_none_params": "test_url_concat_none_params"
+            },
+            "test_files": {
+                "python -m unittest -q tornado.test.httputil_test.TestUrlConcat.test_url_concat_none_params": "tornado/test/httputil_test.py"
+            },
+            "used_framework": "unittest"
+        },
+        "youtube-dl_11": {
+            "py_version": "3.7.4",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/youtube-dl/11/buggy/",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/youtube-dl/11/fixed/",
+            "src_path": "youtube_dl",
+            "env_name": "youtube-dl_11_env",
+            "base_module_name": "youtube_dl.",
+            "test_funcs": {
+                "python -m unittest -q test.test_utils.TestUtil.test_str_to_int": "test_str_to_int"
+            },
+            "test_files": {
+                "python -m unittest -q test.test_utils.TestUtil.test_str_to_int": "test/test_utils.py"
+            },
+            "used_framework": "unittest"
+        },
+        "youtube-dl_16": {
+            "py_version": "3.7.4",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/youtube-dl/16/buggy/",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/youtube-dl/16/fixed/",
+            "src_path": "youtube_dl",
+            "env_name": "youtube-dl_16_env",
+            "base_module_name": "youtube_dl.",
+            "test_funcs": {
+                "python -m unittest -q test.test_utils.TestUtil.test_dfxp2srt": "test_dfxp2srt"
+            },
+            "test_files": {
+                "python -m unittest -q test.test_utils.TestUtil.test_dfxp2srt": "test/test_utils.py"
+            },
+            "used_framework": "unittest"
+        }
+    },
+    "typebugs": {
+        "Zappa-1434_cli": {
+            "py_version": "2.7.18",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/Zappa/Zappa-1434_cli/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/Zappa/Zappa-1434_cli/fixed",
+            "src_path": "zappa",
+            "env_name": "Zappa-1434_env",
+            "base_module_name": "zappa.",
+            "test_funcs": {
+                "pytest tests/tests.py::TestZappa::test_certify_sanity_checks": "test_certify_sanity_checks"
+            },
+            "test_files": {
+                "pytest tests/tests.py::TestZappa::test_certify_sanity_checks": "tests/tests.py"
+            },
+            "used_framework": "pytest"
+        },
+        "Zappa-1434_cli-1828": {
+            "py_version": "2.7.18",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/Zappa/Zappa-1434_cli-1828/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/Zappa/Zappa-1434_cli-1828/fixed",
+            "src_path": "zappa",
+            "env_name": "Zappa-1434_env",
+            "base_module_name": "zappa.",
+            "test_funcs": {
+                "pytest tests/tests.py::TestZappa::test_certify_sanity_checks": "test_certify_sanity_checks"
+            },
+            "test_files": {
+                "pytest tests/tests.py::TestZappa::test_certify_sanity_checks": "tests/tests.py"
+            },
+            "used_framework": "pytest"
+        },
+        "Zappa-1434_cli-1838": {
+            "py_version": "2.7.18",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/Zappa/Zappa-1434_cli-1838/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/Zappa/Zappa-1434_cli-1838/fixed",
+            "src_path": "zappa",
+            "env_name": "Zappa-1434_env",
+            "base_module_name": "zappa.",
+            "test_funcs": {
+                "pytest tests/tests.py::TestZappa::test_certify_sanity_checks": "test_certify_sanity_checks"
+            },
+            "test_files": {
+                "pytest tests/tests.py::TestZappa::test_certify_sanity_checks": "tests/tests.py"
+            },
+            "used_framework": "pytest"
+        },
+        "Zappa-388_wsgi": {
+            "py_version": "2.7.18",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/Zappa/Zappa-388_wsgi/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/Zappa/Zappa-388_wsgi/fixed",
+            "src_path": "zappa",
+            "env_name": "Zappa-388_env",
+            "base_module_name": "zappa.",
+            "test_funcs": {
+                "pytest tests/tests.py::TestZappa::test_wsgi_without_body": "test_wsgi_without_body"
+            },
+            "test_files": {
+                "pytest tests/tests.py::TestZappa::test_wsgi_without_body": "tests/tests.py"
+            },
+            "used_framework": "pytest"
+        },
+        "airflow-14513_pod_launcher": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/airflow/airflow-14513_pod_launcher/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/airflow/airflow-14513_pod_launcher/fixed",
+            "src_path": "zappa",
+            "env_name": "airflow-14513_env",
+            "base_module_name": "zappa.",
+            "test_funcs": {
+                "pytest tests/kubernetes/test_pod_launcher.py::TestPodLauncher::test_monitor_pod_empty_logs": "test_monitor_pod_empty_logs"
+            },
+            "test_files": {
+                "pytest tests/kubernetes/test_pod_launcher.py::TestPodLauncher::test_monitor_pod_empty_logs": "tests/kubernetes/test_pod_launcher.py"
+            },
+            "used_framework": "pytest"
+        },
+        "airflow-14686_es_task_handler": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/airflow/airflow-14686_es_task_handler/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/airflow/airflow-14686_es_task_handler/fixed",
+            "src_path": "zappa",
+            "env_name": "airflow-14686_env",
+            "base_module_name": "zappa.",
+            "test_funcs": {
+                "pytest tests/providers/elasticsearch/log/test_es_task_handler.py::TestElasticsearchTaskHandler::test_read_with_match_phrase_query": "test_read_with_match_phrase_query"
+            },
+            "test_files": {
+                "pytest tests/providers/elasticsearch/log/test_es_task_handler.py::TestElasticsearchTaskHandler::test_read_with_match_phrase_query": "tests/providers/elasticsearch/log/test_es_task_handler.py"
+            },
+            "used_framework": "pytest"
+        },
+        "airflow-14686_es_task_handler-186": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/airflow/airflow-14686_es_task_handler-186/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/airflow/airflow-14686_es_task_handler-186/fixed",
+            "src_path": "zappa",
+            "env_name": "airflow-14686_env",
+            "base_module_name": "zappa.",
+            "test_funcs": {
+                "pytest tests/providers/elasticsearch/log/test_es_task_handler.py::TestElasticsearchTaskHandler::test_read_with_match_phrase_query": "test_read_with_match_phrase_query"
+            },
+            "test_files": {
+                "pytest tests/providers/elasticsearch/log/test_es_task_handler.py::TestElasticsearchTaskHandler::test_read_with_match_phrase_query": "tests/providers/elasticsearch/log/test_es_task_handler.py"
+            },
+            "used_framework": "pytest"
+        },
+        "airflow-14686_es_task_handler-190": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/airflow/airflow-14686_es_task_handler-190/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/airflow/airflow-14686_es_task_handler-190/fixed",
+            "src_path": "zappa",
+            "env_name": "airflow-14686_env",
+            "base_module_name": "zappa.",
+            "test_funcs": {
+                "pytest tests/providers/elasticsearch/log/test_es_task_handler.py::TestElasticsearchTaskHandler::test_read_with_match_phrase_query": "test_read_with_match_phrase_query"
+            },
+            "test_files": {
+                "pytest tests/providers/elasticsearch/log/test_es_task_handler.py::TestElasticsearchTaskHandler::test_read_with_match_phrase_query": "tests/providers/elasticsearch/log/test_es_task_handler.py"
+            },
+            "used_framework": "pytest"
+        },
+        "airflow-3831_dataflow_operator": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/airflow/airflow-3831_dataflow_operator/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/airflow/airflow-3831_dataflow_operator/fixed",
+            "src_path": "zappa",
+            "env_name": "airflow-3831_env",
+            "base_module_name": "zappa.",
+            "test_funcs": {
+                "pytest tests/contrib/operators/test_dataflow_operator.py::GoogleCloudBucketHelperTest": "GoogleCloudBucketHelperTest"
+            },
+            "test_files": {
+                "pytest tests/contrib/operators/test_dataflow_operator.py::GoogleCloudBucketHelperTest": "tests/contrib/operators/test_dataflow_operator.py"
+            },
+            "used_framework": "pytest"
+        },
+        "airflow-3831_dataflow_operator-362": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/airflow/airflow-3831_dataflow_operator-362/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/airflow/airflow-3831_dataflow_operator-362/fixed",
+            "src_path": "zappa",
+            "env_name": "airflow-3831_env",
+            "base_module_name": "zappa.",
+            "test_funcs": {
+                "pytest tests/contrib/operators/test_dataflow_operator.py::GoogleCloudBucketHelperTest": "GoogleCloudBucketHelperTest"
+            },
+            "test_files": {
+                "pytest tests/contrib/operators/test_dataflow_operator.py::GoogleCloudBucketHelperTest": "tests/contrib/operators/test_dataflow_operator.py"
+            },
+            "used_framework": "pytest"
+        },
+        "airflow-3831_dataflow_operator-373": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/airflow/airflow-3831_dataflow_operator-373/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/airflow/airflow-3831_dataflow_operator-373/fixed",
+            "src_path": "zappa",
+            "env_name": "airflow-3831_env",
+            "base_module_name": "zappa.",
+            "test_funcs": {
+                "pytest tests/contrib/operators/test_dataflow_operator.py::GoogleCloudBucketHelperTest": "GoogleCloudBucketHelperTest"
+            },
+            "test_files": {
+                "pytest tests/contrib/operators/test_dataflow_operator.py::GoogleCloudBucketHelperTest": "tests/contrib/operators/test_dataflow_operator.py"
+            },
+            "used_framework": "pytest"
+        },
+        "airflow-4674_configuration": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/airflow/airflow-4674_configuration/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/airflow/airflow-4674_configuration/fixed",
+            "src_path": "zappa",
+            "env_name": "airflow-4674_env",
+            "base_module_name": "zappa.",
+            "test_funcs": {
+                "pytest tests/test_configuration.py::ConfTest::test_command_precedence": "test_command_precedence"
+            },
+            "test_files": {
+                "pytest tests/test_configuration.py::ConfTest::test_command_precedence": "tests/test_configuration.py"
+            },
+            "used_framework": "pytest"
+        },
+        "airflow-4674_configuration-267": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/airflow/airflow-4674_configuration-267/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/airflow/airflow-4674_configuration-267/fixed",
+            "src_path": "zappa",
+            "env_name": "airflow-4674_env",
+            "base_module_name": "zappa.",
+            "test_funcs": {
+                "pytest tests/test_configuration.py::ConfTest::test_command_precedence": "test_command_precedence"
+            },
+            "test_files": {
+                "pytest tests/test_configuration.py::ConfTest::test_command_precedence": "tests/test_configuration.py"
+            },
+            "used_framework": "pytest"
+        },
+        "airflow-4674_configuration-269": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/airflow/airflow-4674_configuration-269/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/airflow/airflow-4674_configuration-269/fixed",
+            "src_path": "zappa",
+            "env_name": "airflow-4674_env",
+            "base_module_name": "zappa.",
+            "test_funcs": {
+                "pytest tests/test_configuration.py::ConfTest::test_command_precedence": "test_command_precedence"
+            },
+            "test_files": {
+                "pytest tests/test_configuration.py::ConfTest::test_command_precedence": "tests/test_configuration.py"
+            },
+            "used_framework": "pytest"
+        },
+        "airflow-5686_http_hook": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/airflow/airflow-5686_http_hook/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/airflow/airflow-5686_http_hook/fixed",
+            "src_path": "zappa",
+            "env_name": "airflow-5686_env",
+            "base_module_name": "zappa.",
+            "test_funcs": {
+                "pytest tests/hooks/test_http_hook.py::TestHttpHook::test_connection_without_host": "test_connection_without_host"
+            },
+            "test_files": {
+                "pytest tests/hooks/test_http_hook.py::TestHttpHook::test_connection_without_host": "tests/hooks/test_http_hook.py"
+            },
+            "used_framework": "pytest"
+        },
+        "airflow-5686_http_hook-62": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/airflow/airflow-5686_http_hook-62/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/airflow/airflow-5686_http_hook-62/fixed",
+            "src_path": "zappa",
+            "env_name": "airflow-5686_env",
+            "base_module_name": "zappa.",
+            "test_funcs": {
+                "pytest tests/hooks/test_http_hook.py::TestHttpHook::test_connection_without_host": "test_connection_without_host"
+            },
+            "test_files": {
+                "pytest tests/hooks/test_http_hook.py::TestHttpHook::test_connection_without_host": "tests/hooks/test_http_hook.py"
+            },
+            "used_framework": "pytest"
+        },
+        "airflow-5686_http_hook-67": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/airflow/airflow-5686_http_hook-67/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/airflow/airflow-5686_http_hook-67/fixed",
+            "src_path": "zappa",
+            "env_name": "airflow-5686_env",
+            "base_module_name": "zappa.",
+            "test_funcs": {
+                "pytest tests/hooks/test_http_hook.py::TestHttpHook::test_connection_without_host": "test_connection_without_host"
+            },
+            "test_files": {
+                "pytest tests/hooks/test_http_hook.py::TestHttpHook::test_connection_without_host": "tests/hooks/test_http_hook.py"
+            },
+            "used_framework": "pytest"
+        },
+        "airflow-6036_dataflow": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/airflow/airflow-6036_dataflow/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/airflow/airflow-6036_dataflow/fixed",
+            "src_path": "zappa",
+            "env_name": "airflow-6036_env",
+            "base_module_name": "zappa.",
+            "test_funcs": {
+                "pytest tests/gcp/hooks/test_dataflow.py::TestDataFlowJob": "TestDataFlowJob"
+            },
+            "test_files": {
+                "pytest tests/gcp/hooks/test_dataflow.py::TestDataFlowJob": "tests/gcp/hooks/test_dataflow.py"
+            },
+            "used_framework": "pytest"
+        },
+        "airflow-6036_dataflow-91": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/airflow/airflow-6036_dataflow-91/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/airflow/airflow-6036_dataflow-91/fixed",
+            "src_path": "zappa",
+            "env_name": "airflow-6036_env",
+            "base_module_name": "zappa.",
+            "test_funcs": {
+                "pytest tests/gcp/hooks/test_dataflow.py::TestDataFlowJob": "TestDataFlowJob"
+            },
+            "test_files": {
+                "pytest tests/gcp/hooks/test_dataflow.py::TestDataFlowJob": "tests/gcp/hooks/test_dataflow.py"
+            },
+            "used_framework": "pytest"
+        },
+        "airflow-6036_dataflow-99": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/airflow/airflow-6036_dataflow-99/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/airflow/airflow-6036_dataflow-99/fixed",
+            "src_path": "zappa",
+            "env_name": "airflow-6036_env",
+            "base_module_name": "zappa.",
+            "test_funcs": {
+                "pytest tests/gcp/hooks/test_dataflow.py::TestDataFlowJob": "TestDataFlowJob"
+            },
+            "test_files": {
+                "pytest tests/gcp/hooks/test_dataflow.py::TestDataFlowJob": "tests/gcp/hooks/test_dataflow.py"
+            },
+            "used_framework": "pytest"
+        },
+        "airflow-8151_dag": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/airflow/airflow-8151_dag/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/airflow/airflow-8151_dag/fixed",
+            "src_path": "zappa",
+            "env_name": "airflow-8151_env",
+            "base_module_name": "zappa.",
+            "test_funcs": {
+                "pytest tests/models/test_dagcode.py::TestDagCode::test_sync_to_db # Error": "test_sync_to_db # Error",
+                "pytest tests/models/test_dagcode.py::TestDagCode::test_bulk_sync_to_db": "test_bulk_sync_to_db",
+                "pytest tests/models/test_dagcode.py::TestDagCode::test_bulk_sync_to_db_half_files": "test_bulk_sync_to_db_half_files",
+                "# \ud639\uc740 test_dagcode.py \uc804\uccb4\uac00 \uad00\ub828\ub41c \ud14c\uc2a4\ud2b8\uc77c\uc218\ub3c4!": ""
+            },
+            "test_files": {
+                "pytest tests/models/test_dagcode.py::TestDagCode::test_sync_to_db # Error": "tests/models/test_dagcode.py",
+                "pytest tests/models/test_dagcode.py::TestDagCode::test_bulk_sync_to_db": "tests/models/test_dagcode.py",
+                "pytest tests/models/test_dagcode.py::TestDagCode::test_bulk_sync_to_db_half_files": "tests/models/test_dagcode.py",
+                "# \ud639\uc740 test_dagcode.py \uc804\uccb4\uac00 \uad00\ub828\ub41c \ud14c\uc2a4\ud2b8\uc77c\uc218\ub3c4!": "# \ud639\uc740 test_dagcode.py"
+            },
+            "used_framework": "pytest"
+        },
+        "airflow-8151_dagcode": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/airflow/airflow-8151_dagcode/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/airflow/airflow-8151_dagcode/fixed",
+            "src_path": "zappa",
+            "env_name": "airflow-8151_env",
+            "base_module_name": "zappa.",
+            "test_funcs": {
+                "pytest tests/models/test_dagcode.py::TestDagCode::test_sync_to_db # Error": "test_sync_to_db # Error",
+                "pytest tests/models/test_dagcode.py::TestDagCode::test_bulk_sync_to_db": "test_bulk_sync_to_db",
+                "pytest tests/models/test_dagcode.py::TestDagCode::test_bulk_sync_to_db_half_files": "test_bulk_sync_to_db_half_files",
+                "# \ud639\uc740 test_dagcode.py \uc804\uccb4\uac00 \uad00\ub828\ub41c \ud14c\uc2a4\ud2b8\uc77c\uc218\ub3c4!": ""
+            },
+            "test_files": {
+                "pytest tests/models/test_dagcode.py::TestDagCode::test_sync_to_db # Error": "tests/models/test_dagcode.py",
+                "pytest tests/models/test_dagcode.py::TestDagCode::test_bulk_sync_to_db": "tests/models/test_dagcode.py",
+                "pytest tests/models/test_dagcode.py::TestDagCode::test_bulk_sync_to_db_half_files": "tests/models/test_dagcode.py",
+                "# \ud639\uc740 test_dagcode.py \uc804\uccb4\uac00 \uad00\ub828\ub41c \ud14c\uc2a4\ud2b8\uc77c\uc218\ub3c4!": "# \ud639\uc740 test_dagcode.py"
+            },
+            "used_framework": "pytest"
+        },
+        "airflow-8151_dagcode-133": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/airflow/airflow-8151_dagcode-133/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/airflow/airflow-8151_dagcode-133/fixed",
+            "src_path": "zappa",
+            "env_name": "airflow-8151_env",
+            "base_module_name": "zappa.",
+            "test_funcs": {
+                "pytest tests/models/test_dagcode.py::TestDagCode::test_sync_to_db # Error": "test_sync_to_db # Error",
+                "pytest tests/models/test_dagcode.py::TestDagCode::test_bulk_sync_to_db": "test_bulk_sync_to_db",
+                "pytest tests/models/test_dagcode.py::TestDagCode::test_bulk_sync_to_db_half_files": "test_bulk_sync_to_db_half_files",
+                "# \ud639\uc740 test_dagcode.py \uc804\uccb4\uac00 \uad00\ub828\ub41c \ud14c\uc2a4\ud2b8\uc77c\uc218\ub3c4!": ""
+            },
+            "test_files": {
+                "pytest tests/models/test_dagcode.py::TestDagCode::test_sync_to_db # Error": "tests/models/test_dagcode.py",
+                "pytest tests/models/test_dagcode.py::TestDagCode::test_bulk_sync_to_db": "tests/models/test_dagcode.py",
+                "pytest tests/models/test_dagcode.py::TestDagCode::test_bulk_sync_to_db_half_files": "tests/models/test_dagcode.py",
+                "# \ud639\uc740 test_dagcode.py \uc804\uccb4\uac00 \uad00\ub828\ub41c \ud14c\uc2a4\ud2b8\uc77c\uc218\ub3c4!": "# \ud639\uc740 test_dagcode.py"
+            },
+            "used_framework": "pytest"
+        },
+        "airflow-8151_dagcode-148": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/airflow/airflow-8151_dagcode-148/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/airflow/airflow-8151_dagcode-148/fixed",
+            "src_path": "zappa",
+            "env_name": "airflow-8151_env",
+            "base_module_name": "zappa.",
+            "test_funcs": {
+                "pytest tests/models/test_dagcode.py::TestDagCode::test_sync_to_db # Error": "test_sync_to_db # Error",
+                "pytest tests/models/test_dagcode.py::TestDagCode::test_bulk_sync_to_db": "test_bulk_sync_to_db",
+                "pytest tests/models/test_dagcode.py::TestDagCode::test_bulk_sync_to_db_half_files": "test_bulk_sync_to_db_half_files",
+                "# \ud639\uc740 test_dagcode.py \uc804\uccb4\uac00 \uad00\ub828\ub41c \ud14c\uc2a4\ud2b8\uc77c\uc218\ub3c4!": ""
+            },
+            "test_files": {
+                "pytest tests/models/test_dagcode.py::TestDagCode::test_sync_to_db # Error": "tests/models/test_dagcode.py",
+                "pytest tests/models/test_dagcode.py::TestDagCode::test_bulk_sync_to_db": "tests/models/test_dagcode.py",
+                "pytest tests/models/test_dagcode.py::TestDagCode::test_bulk_sync_to_db_half_files": "tests/models/test_dagcode.py",
+                "# \ud639\uc740 test_dagcode.py \uc804\uccb4\uac00 \uad00\ub828\ub41c \ud14c\uc2a4\ud2b8\uc77c\uc218\ub3c4!": "# \ud639\uc740 test_dagcode.py"
+            },
+            "used_framework": "pytest"
+        },
+        "beets-3360_thumbnails": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/beets/beets-3360_thumbnails/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/beets/beets-3360_thumbnails/fixed",
+            "src_path": "zappa",
+            "env_name": "beets-3360_env",
+            "base_module_name": "zappa.",
+            "test_funcs": {
+                "pytest test/test_thumbnails.py::TestPathlibURI::test_uri": "test_uri"
+            },
+            "test_files": {
+                "pytest test/test_thumbnails.py::TestPathlibURI::test_uri": "test/test_thumbnails.py"
+            },
+            "used_framework": "pytest"
+        },
+        "core-1972_script": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/core/core-1972_script/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/core/core-1972_script/fixed",
+            "src_path": "homeassistant",
+            "env_name": "core-1972_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest tests/helpers/test_script.py::TestScriptHelper::test_condition": "test_condition"
+            },
+            "test_files": {
+                "pytest tests/helpers/test_script.py::TestScriptHelper::test_condition": "tests/helpers/test_script.py"
+            },
+            "used_framework": "pytest"
+        },
+        "core-20233_template": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/core/core-20233_template/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/core/core-20233_template/fixed",
+            "src_path": "homeassistant",
+            "env_name": "core-20233_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest tests/helpers/test_template.py::TestHelpersTemplate::test_render_with_possible_json_value_non_string_value": "test_render_with_possible_json_value_non_string_value"
+            },
+            "test_files": {
+                "pytest tests/helpers/test_template.py::TestHelpersTemplate::test_render_with_possible_json_value_non_string_value": "tests/helpers/test_template.py"
+            },
+            "used_framework": "pytest"
+        },
+        "core-21734_dsmr": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/core/core-21734_dsmr/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/core/core-21734_dsmr/fixed",
+            "src_path": "homeassistant",
+            "env_name": "core-21734_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest tests/components/sensor/test_dsmr.py::test_derivative": "test_derivative"
+            },
+            "test_files": {
+                "pytest tests/components/sensor/test_dsmr.py::test_derivative": "tests/components/sensor/test_dsmr.py"
+            },
+            "used_framework": "pytest"
+        },
+        "core-29829___init__": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/core/core-29829___init__/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/core/core-29829___init__/fixed",
+            "src_path": "homeassistant",
+            "env_name": "core-29829_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest tests/components/input_text/test_init.py::test_restore_state": "test_restore_state"
+            },
+            "test_files": {
+                "pytest tests/components/input_text/test_init.py::test_restore_state": "tests/components/input_text/test_init.py"
+            },
+            "used_framework": "pytest"
+        },
+        "core-29829___init__-126": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/core/core-29829___init__-126/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/core/core-29829___init__-126/fixed",
+            "src_path": "homeassistant",
+            "env_name": "core-29829_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest tests/components/input_text/test_init.py::test_restore_state": "test_restore_state"
+            },
+            "test_files": {
+                "pytest tests/components/input_text/test_init.py::test_restore_state": "tests/components/input_text/test_init.py"
+            },
+            "used_framework": "pytest"
+        },
+        "core-29829___init__-127": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/core/core-29829___init__-127/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/core/core-29829___init__-127/fixed",
+            "src_path": "homeassistant",
+            "env_name": "core-29829_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest tests/components/input_text/test_init.py::test_restore_state": "test_restore_state"
+            },
+            "test_files": {
+                "pytest tests/components/input_text/test_init.py::test_restore_state": "tests/components/input_text/test_init.py"
+            },
+            "used_framework": "pytest"
+        },
+        "core-32222_device_tracker": {
+            "py_version": "3.7.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/core/core-32222_device_tracker/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/core/core-32222_device_tracker/fixed",
+            "src_path": "homeassistant",
+            "env_name": "core-32222_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest tests/components/unifi/test_device_tracker.py": ""
+            },
+            "test_files": {
+                "pytest tests/components/unifi/test_device_tracker.py": "tests/components/unifi/test_device_tracker.py"
+            },
+            "used_framework": "pytest"
+        },
+        "core-32318_capabilities": {
+            "py_version": "3.7.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/core/core-32318_capabilities/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/core/core-32318_capabilities/fixed",
+            "src_path": "homeassistant",
+            "env_name": "core-32318_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest tests/components/unifi/test_device_tracker.py": ""
+            },
+            "test_files": {
+                "pytest tests/components/unifi/test_device_tracker.py": "tests/components/unifi/test_device_tracker.py"
+            },
+            "used_framework": "pytest"
+        },
+        "core-40034_condition": {
+            "py_version": "3.7.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/core/core-40034_condition/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/core/core-40034_condition/fixed",
+            "src_path": "homeassistant",
+            "env_name": "core-40034_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest tests/helpers/test_condition.py::test_extract_entities": "test_extract_entities",
+                "pytest tests/helpers/test_condition.py::test_extract_devices": "test_extract_devices"
+            },
+            "test_files": {
+                "pytest tests/helpers/test_condition.py::test_extract_entities": "tests/helpers/test_condition.py",
+                "pytest tests/helpers/test_condition.py::test_extract_devices": "tests/helpers/test_condition.py"
+            },
+            "used_framework": "pytest"
+        },
+        "core-40034_condition-659": {
+            "py_version": "3.7.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/core/core-40034_condition-659/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/core/core-40034_condition-659/fixed",
+            "src_path": "homeassistant",
+            "env_name": "core-40034_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest tests/helpers/test_condition.py::test_extract_entities": "test_extract_entities",
+                "pytest tests/helpers/test_condition.py::test_extract_devices": "test_extract_devices"
+            },
+            "test_files": {
+                "pytest tests/helpers/test_condition.py::test_extract_entities": "tests/helpers/test_condition.py",
+                "pytest tests/helpers/test_condition.py::test_extract_devices": "tests/helpers/test_condition.py"
+            },
+            "used_framework": "pytest"
+        },
+        "core-40034_condition-684": {
+            "py_version": "3.7.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/core/core-40034_condition-684/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/core/core-40034_condition-684/fixed",
+            "src_path": "homeassistant",
+            "env_name": "core-40034_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest tests/helpers/test_condition.py::test_extract_entities": "test_extract_entities",
+                "pytest tests/helpers/test_condition.py::test_extract_devices": "test_extract_devices"
+            },
+            "test_files": {
+                "pytest tests/helpers/test_condition.py::test_extract_entities": "tests/helpers/test_condition.py",
+                "pytest tests/helpers/test_condition.py::test_extract_devices": "tests/helpers/test_condition.py"
+            },
+            "used_framework": "pytest"
+        },
+        "kivy-6954_urlrequest": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/kivy/kivy-6954_urlrequest/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/kivy/kivy-6954_urlrequest/fixed",
+            "src_path": "homeassistant",
+            "env_name": "kivy-6954_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest kivy/tests/test_urlrequest.py::test_ca_file": "test_ca_file"
+            },
+            "test_files": {
+                "pytest kivy/tests/test_urlrequest.py::test_ca_file": "kivy/tests/test_urlrequest.py"
+            },
+            "used_framework": "pytest"
+        },
+        "luigi-1836_pig": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/luigi/luigi-1836_pig/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/luigi/luigi-1836_pig/fixed",
+            "src_path": "homeassistant",
+            "env_name": "luigi-1836_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest test/contrib/pig_test.py": ""
+            },
+            "test_files": {
+                "pytest test/contrib/pig_test.py": "test/contrib/pig_test.py"
+            },
+            "used_framework": "pytest"
+        },
+        "luigi-1836_pig-130": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/luigi/luigi-1836_pig-130/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/luigi/luigi-1836_pig-130/fixed",
+            "src_path": "homeassistant",
+            "env_name": "luigi-1836_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest test/contrib/pig_test.py": ""
+            },
+            "test_files": {
+                "pytest test/contrib/pig_test.py": "test/contrib/pig_test.py"
+            },
+            "used_framework": "pytest"
+        },
+        "luigi-1836_pig-148": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/luigi/luigi-1836_pig-148/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/luigi/luigi-1836_pig-148/fixed",
+            "src_path": "homeassistant",
+            "env_name": "luigi-1836_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest test/contrib/pig_test.py": ""
+            },
+            "test_files": {
+                "pytest test/contrib/pig_test.py": "test/contrib/pig_test.py"
+            },
+            "used_framework": "pytest"
+        },
+        "numpy-10473_polynomial": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/numpy/numpy-10473_polynomial/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/numpy/numpy-10473_polynomial/fixed",
+            "src_path": "homeassistant",
+            "env_name": "numpy-10473_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest numpy/lib/tests/test_polynomial.py::TestDocs::test_polydiv": "test_polydiv"
+            },
+            "test_files": {
+                "pytest numpy/lib/tests/test_polynomial.py::TestDocs::test_polydiv": "numpy/lib/tests/test_polynomial.py"
+            },
+            "used_framework": "pytest"
+        },
+        "numpy-19094__generic_alias": {
+            "py_version": "3.7.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/numpy/numpy-19094__generic_alias/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/numpy/numpy-19094__generic_alias/fixed",
+            "src_path": "homeassistant",
+            "env_name": "numpy-19094_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest numpy/typing/tests/test_generic_alias.py::TestGenericAlias::test_pass": "test_pass"
+            },
+            "test_files": {
+                "pytest numpy/typing/tests/test_generic_alias.py::TestGenericAlias::test_pass": "numpy/typing/tests/test_generic_alias.py"
+            },
+            "used_framework": "pytest"
+        },
+        "numpy-9999_arraysetops": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/numpy/numpy-9999_arraysetops/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/numpy/numpy-9999_arraysetops/fixed",
+            "src_path": "homeassistant",
+            "env_name": "numpy-9999_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest numpy/lib/tests/test_arraysetops.py::TestSetOps::test_in1d_first_array_is_object": "test_in1d_first_array_is_object",
+                "pytest numpy/lib/tests/test_arraysetops.py::TestSetOps::test_in1d_second_array_is_object": "test_in1d_second_array_is_object",
+                "pytest numpy/lib/tests/test_arraysetops.py::TestSetOps::test_in1d_both_arrays_are_object": "test_in1d_both_arrays_are_object",
+                "pytest numpy/lib/tests/test_arraysetops.py::TestSetOps::test_in1d_both_arrays_have_structured_dtype": "test_in1d_both_arrays_have_structured_dtype"
+            },
+            "test_files": {
+                "pytest numpy/lib/tests/test_arraysetops.py::TestSetOps::test_in1d_first_array_is_object": "numpy/lib/tests/test_arraysetops.py",
+                "pytest numpy/lib/tests/test_arraysetops.py::TestSetOps::test_in1d_second_array_is_object": "numpy/lib/tests/test_arraysetops.py",
+                "pytest numpy/lib/tests/test_arraysetops.py::TestSetOps::test_in1d_both_arrays_are_object": "numpy/lib/tests/test_arraysetops.py",
+                "pytest numpy/lib/tests/test_arraysetops.py::TestSetOps::test_in1d_both_arrays_have_structured_dtype": "numpy/lib/tests/test_arraysetops.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-15941_common": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-15941_common/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-15941_common/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-15941_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/types/test_common.py::test_get_dtype_error_catch": "test_get_dtype_error_catch"
+            },
+            "test_files": {
+                "pytest pandas/tests/types/test_common.py::test_get_dtype_error_catch": "pandas/tests/types/test_common.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-15941_common-119": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-15941_common-119/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-15941_common-119/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-15941_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/types/test_common.py::test_get_dtype_error_catch": "test_get_dtype_error_catch"
+            },
+            "test_files": {
+                "pytest pandas/tests/types/test_common.py::test_get_dtype_error_catch": "pandas/tests/types/test_common.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-15941_common-212": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-15941_common-212/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-15941_common-212/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-15941_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/types/test_common.py::test_get_dtype_error_catch": "test_get_dtype_error_catch"
+            },
+            "test_files": {
+                "pytest pandas/tests/types/test_common.py::test_get_dtype_error_catch": "pandas/tests/types/test_common.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-15941_common-306": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-15941_common-306/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-15941_common-306/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-15941_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/types/test_common.py::test_get_dtype_error_catch": "test_get_dtype_error_catch"
+            },
+            "test_files": {
+                "pytest pandas/tests/types/test_common.py::test_get_dtype_error_catch": "pandas/tests/types/test_common.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-17430__core": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-17430__core/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-17430__core/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-17430_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/plotting/test_frame.py::TestDataFramePlots::test_subplots_timeseries_y_axis": "test_subplots_timeseries_y_axis"
+            },
+            "test_files": {
+                "pytest pandas/tests/plotting/test_frame.py::TestDataFramePlots::test_subplots_timeseries_y_axis": "pandas/tests/plotting/test_frame.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-17609__decorators": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-17609__decorators/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-17609__decorators/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-17609_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/util/test_util.py::test_make_signature": "test_make_signature"
+            },
+            "test_files": {
+                "pytest pandas/tests/util/test_util.py::test_make_signature": "pandas/tests/util/test_util.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-18831_ops": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-18831_ops/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-18831_ops/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-18831_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/series/test_operators.py::TestTimedeltaSeriesArithmetic::test_timedelta_rfloordiv": "test_timedelta_rfloordiv",
+                "pytest pandas/tests/series/test_operators.py::TestTimedeltaSeriesArithmetic::test_timedelta_rfloordiv_explicit": "test_timedelta_rfloordiv_explicit",
+                "pytest pandas/tests/series/test_operators.py::TestTimedeltaSeriesArithmetic::test_timedelta_floordiv": "test_timedelta_floordiv"
+            },
+            "test_files": {
+                "pytest pandas/tests/series/test_operators.py::TestTimedeltaSeriesArithmetic::test_timedelta_rfloordiv": "pandas/tests/series/test_operators.py",
+                "pytest pandas/tests/series/test_operators.py::TestTimedeltaSeriesArithmetic::test_timedelta_rfloordiv_explicit": "pandas/tests/series/test_operators.py",
+                "pytest pandas/tests/series/test_operators.py::TestTimedeltaSeriesArithmetic::test_timedelta_floordiv": "pandas/tests/series/test_operators.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-18831_ops-428": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-18831_ops-428/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-18831_ops-428/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-18831_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/series/test_operators.py::TestTimedeltaSeriesArithmetic::test_timedelta_rfloordiv": "test_timedelta_rfloordiv",
+                "pytest pandas/tests/series/test_operators.py::TestTimedeltaSeriesArithmetic::test_timedelta_rfloordiv_explicit": "test_timedelta_rfloordiv_explicit",
+                "pytest pandas/tests/series/test_operators.py::TestTimedeltaSeriesArithmetic::test_timedelta_floordiv": "test_timedelta_floordiv"
+            },
+            "test_files": {
+                "pytest pandas/tests/series/test_operators.py::TestTimedeltaSeriesArithmetic::test_timedelta_rfloordiv": "pandas/tests/series/test_operators.py",
+                "pytest pandas/tests/series/test_operators.py::TestTimedeltaSeriesArithmetic::test_timedelta_rfloordiv_explicit": "pandas/tests/series/test_operators.py",
+                "pytest pandas/tests/series/test_operators.py::TestTimedeltaSeriesArithmetic::test_timedelta_floordiv": "pandas/tests/series/test_operators.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-18831_ops-632": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-18831_ops-632/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-18831_ops-632/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-18831_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/series/test_operators.py::TestTimedeltaSeriesArithmetic::test_timedelta_rfloordiv": "test_timedelta_rfloordiv",
+                "pytest pandas/tests/series/test_operators.py::TestTimedeltaSeriesArithmetic::test_timedelta_rfloordiv_explicit": "test_timedelta_rfloordiv_explicit",
+                "pytest pandas/tests/series/test_operators.py::TestTimedeltaSeriesArithmetic::test_timedelta_floordiv": "test_timedelta_floordiv"
+            },
+            "test_files": {
+                "pytest pandas/tests/series/test_operators.py::TestTimedeltaSeriesArithmetic::test_timedelta_rfloordiv": "pandas/tests/series/test_operators.py",
+                "pytest pandas/tests/series/test_operators.py::TestTimedeltaSeriesArithmetic::test_timedelta_rfloordiv_explicit": "pandas/tests/series/test_operators.py",
+                "pytest pandas/tests/series/test_operators.py::TestTimedeltaSeriesArithmetic::test_timedelta_floordiv": "pandas/tests/series/test_operators.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-18849_ops": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-18849_ops/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-18849_ops/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-18849_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_add_offset_array": "test_dti_add_offset_array",
+                "pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_sub_offset_array": "test_dti_sub_offset_array",
+                "pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_with_offset_series": "test_dti_with_offset_series"
+            },
+            "test_files": {
+                "pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_add_offset_array": "pandas/tests/indexes/datetimes/test_arithmetic.py",
+                "pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_sub_offset_array": "pandas/tests/indexes/datetimes/test_arithmetic.py",
+                "pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_with_offset_series": "pandas/tests/indexes/datetimes/test_arithmetic.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-19013_datetimelike": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-19013_datetimelike/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-19013_datetimelike/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-19013_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_add_int": "test_dti_add_int",
+                "pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_iadd_int": "test_dti_iadd_int",
+                "pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_sub_int": "test_dti_sub_int",
+                "pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_isub_int": "test_dti_isub_int",
+                "pytest pandas/tests/indexes/period/test_arithmetic.py::TestPeriodIndexArithmetic::test_pi_add_int": "test_pi_add_int",
+                "pytest pandas/tests/indexes/period/test_arithmetic.py::TestPeriodIndexArithmetic::test_sub": "test_sub",
+                "pytest pandas/tests/indexes/timedeltas/test_arithmetic.py::TestTimedeltaIndexArithmetic::test_tdi_add_int": "test_tdi_add_int",
+                "pytest pandas/tests/indexes/timedeltas/test_arithmetic.py::TestTimedeltaIndexArithmetic::test_tdi_iadd_int": "test_tdi_iadd_int",
+                "pytest pandas/tests/indexes/timedeltas/test_arithmetic.py::TestTimedeltaIndexArithmetic::test_tdi_sub_int": "test_tdi_sub_int",
+                "pytest pandas/tests/indexes/timedeltas/test_arithmetic.py::TestTimedeltaIndexArithmetic::test_tdi_isub_int": "test_tdi_isub_int"
+            },
+            "test_files": {
+                "pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_add_int": "pandas/tests/indexes/datetimes/test_arithmetic.py",
+                "pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_iadd_int": "pandas/tests/indexes/datetimes/test_arithmetic.py",
+                "pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_sub_int": "pandas/tests/indexes/datetimes/test_arithmetic.py",
+                "pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_isub_int": "pandas/tests/indexes/datetimes/test_arithmetic.py",
+                "pytest pandas/tests/indexes/period/test_arithmetic.py::TestPeriodIndexArithmetic::test_pi_add_int": "pandas/tests/indexes/period/test_arithmetic.py",
+                "pytest pandas/tests/indexes/period/test_arithmetic.py::TestPeriodIndexArithmetic::test_sub": "pandas/tests/indexes/period/test_arithmetic.py",
+                "pytest pandas/tests/indexes/timedeltas/test_arithmetic.py::TestTimedeltaIndexArithmetic::test_tdi_add_int": "pandas/tests/indexes/timedeltas/test_arithmetic.py",
+                "pytest pandas/tests/indexes/timedeltas/test_arithmetic.py::TestTimedeltaIndexArithmetic::test_tdi_iadd_int": "pandas/tests/indexes/timedeltas/test_arithmetic.py",
+                "pytest pandas/tests/indexes/timedeltas/test_arithmetic.py::TestTimedeltaIndexArithmetic::test_tdi_sub_int": "pandas/tests/indexes/timedeltas/test_arithmetic.py",
+                "pytest pandas/tests/indexes/timedeltas/test_arithmetic.py::TestTimedeltaIndexArithmetic::test_tdi_isub_int": "pandas/tests/indexes/timedeltas/test_arithmetic.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-19013_datetimelike-672": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-19013_datetimelike-672/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-19013_datetimelike-672/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-19013_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_add_int": "test_dti_add_int",
+                "pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_iadd_int": "test_dti_iadd_int",
+                "pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_sub_int": "test_dti_sub_int",
+                "pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_isub_int": "test_dti_isub_int",
+                "pytest pandas/tests/indexes/period/test_arithmetic.py::TestPeriodIndexArithmetic::test_pi_add_int": "test_pi_add_int",
+                "pytest pandas/tests/indexes/period/test_arithmetic.py::TestPeriodIndexArithmetic::test_sub": "test_sub",
+                "pytest pandas/tests/indexes/timedeltas/test_arithmetic.py::TestTimedeltaIndexArithmetic::test_tdi_add_int": "test_tdi_add_int",
+                "pytest pandas/tests/indexes/timedeltas/test_arithmetic.py::TestTimedeltaIndexArithmetic::test_tdi_iadd_int": "test_tdi_iadd_int",
+                "pytest pandas/tests/indexes/timedeltas/test_arithmetic.py::TestTimedeltaIndexArithmetic::test_tdi_sub_int": "test_tdi_sub_int",
+                "pytest pandas/tests/indexes/timedeltas/test_arithmetic.py::TestTimedeltaIndexArithmetic::test_tdi_isub_int": "test_tdi_isub_int"
+            },
+            "test_files": {
+                "pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_add_int": "pandas/tests/indexes/datetimes/test_arithmetic.py",
+                "pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_iadd_int": "pandas/tests/indexes/datetimes/test_arithmetic.py",
+                "pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_sub_int": "pandas/tests/indexes/datetimes/test_arithmetic.py",
+                "pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_isub_int": "pandas/tests/indexes/datetimes/test_arithmetic.py",
+                "pytest pandas/tests/indexes/period/test_arithmetic.py::TestPeriodIndexArithmetic::test_pi_add_int": "pandas/tests/indexes/period/test_arithmetic.py",
+                "pytest pandas/tests/indexes/period/test_arithmetic.py::TestPeriodIndexArithmetic::test_sub": "pandas/tests/indexes/period/test_arithmetic.py",
+                "pytest pandas/tests/indexes/timedeltas/test_arithmetic.py::TestTimedeltaIndexArithmetic::test_tdi_add_int": "pandas/tests/indexes/timedeltas/test_arithmetic.py",
+                "pytest pandas/tests/indexes/timedeltas/test_arithmetic.py::TestTimedeltaIndexArithmetic::test_tdi_iadd_int": "pandas/tests/indexes/timedeltas/test_arithmetic.py",
+                "pytest pandas/tests/indexes/timedeltas/test_arithmetic.py::TestTimedeltaIndexArithmetic::test_tdi_sub_int": "pandas/tests/indexes/timedeltas/test_arithmetic.py",
+                "pytest pandas/tests/indexes/timedeltas/test_arithmetic.py::TestTimedeltaIndexArithmetic::test_tdi_isub_int": "pandas/tests/indexes/timedeltas/test_arithmetic.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-19013_datetimelike-700": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-19013_datetimelike-700/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-19013_datetimelike-700/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-19013_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_add_int": "test_dti_add_int",
+                "pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_iadd_int": "test_dti_iadd_int",
+                "pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_sub_int": "test_dti_sub_int",
+                "pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_isub_int": "test_dti_isub_int",
+                "pytest pandas/tests/indexes/period/test_arithmetic.py::TestPeriodIndexArithmetic::test_pi_add_int": "test_pi_add_int",
+                "pytest pandas/tests/indexes/period/test_arithmetic.py::TestPeriodIndexArithmetic::test_sub": "test_sub",
+                "pytest pandas/tests/indexes/timedeltas/test_arithmetic.py::TestTimedeltaIndexArithmetic::test_tdi_add_int": "test_tdi_add_int",
+                "pytest pandas/tests/indexes/timedeltas/test_arithmetic.py::TestTimedeltaIndexArithmetic::test_tdi_iadd_int": "test_tdi_iadd_int",
+                "pytest pandas/tests/indexes/timedeltas/test_arithmetic.py::TestTimedeltaIndexArithmetic::test_tdi_sub_int": "test_tdi_sub_int",
+                "pytest pandas/tests/indexes/timedeltas/test_arithmetic.py::TestTimedeltaIndexArithmetic::test_tdi_isub_int": "test_tdi_isub_int"
+            },
+            "test_files": {
+                "pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_add_int": "pandas/tests/indexes/datetimes/test_arithmetic.py",
+                "pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_iadd_int": "pandas/tests/indexes/datetimes/test_arithmetic.py",
+                "pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_sub_int": "pandas/tests/indexes/datetimes/test_arithmetic.py",
+                "pytest pandas/tests/indexes/datetimes/test_arithmetic.py::TestDatetimeIndexArithmetic::test_dti_isub_int": "pandas/tests/indexes/datetimes/test_arithmetic.py",
+                "pytest pandas/tests/indexes/period/test_arithmetic.py::TestPeriodIndexArithmetic::test_pi_add_int": "pandas/tests/indexes/period/test_arithmetic.py",
+                "pytest pandas/tests/indexes/period/test_arithmetic.py::TestPeriodIndexArithmetic::test_sub": "pandas/tests/indexes/period/test_arithmetic.py",
+                "pytest pandas/tests/indexes/timedeltas/test_arithmetic.py::TestTimedeltaIndexArithmetic::test_tdi_add_int": "pandas/tests/indexes/timedeltas/test_arithmetic.py",
+                "pytest pandas/tests/indexes/timedeltas/test_arithmetic.py::TestTimedeltaIndexArithmetic::test_tdi_iadd_int": "pandas/tests/indexes/timedeltas/test_arithmetic.py",
+                "pytest pandas/tests/indexes/timedeltas/test_arithmetic.py::TestTimedeltaIndexArithmetic::test_tdi_sub_int": "pandas/tests/indexes/timedeltas/test_arithmetic.py",
+                "pytest pandas/tests/indexes/timedeltas/test_arithmetic.py::TestTimedeltaIndexArithmetic::test_tdi_isub_int": "pandas/tests/indexes/timedeltas/test_arithmetic.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-19276_datetimes": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-19276_datetimes/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-19276_datetimes/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-19276_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/indexes/datetimes/test_datetime.py::TestDatetimeIndex::test_nat_comparison_tzawareness": "test_nat_comparison_tzawareness"
+            },
+            "test_files": {
+                "pytest pandas/tests/indexes/datetimes/test_datetime.py::TestDatetimeIndex::test_nat_comparison_tzawareness": "pandas/tests/indexes/datetimes/test_datetime.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-20968__core": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-20968__core/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-20968__core/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-20968_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/plotting/test_frame.py::TestDataFramePlots::test_groupby_boxplot_sharey": "test_groupby_boxplot_sharey",
+                "pytest pandas/tests/plotting/test_frame.py::TestDataFramePlots::test_groupby_boxplot_sharex": "test_groupby_boxplot_sharex"
+            },
+            "test_files": {
+                "pytest pandas/tests/plotting/test_frame.py::TestDataFramePlots::test_groupby_boxplot_sharey": "pandas/tests/plotting/test_frame.py",
+                "pytest pandas/tests/plotting/test_frame.py::TestDataFramePlots::test_groupby_boxplot_sharex": "pandas/tests/plotting/test_frame.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-20968__core-2551": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-20968__core-2551/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-20968__core-2551/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-20968_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/plotting/test_frame.py::TestDataFramePlots::test_groupby_boxplot_sharey": "test_groupby_boxplot_sharey",
+                "pytest pandas/tests/plotting/test_frame.py::TestDataFramePlots::test_groupby_boxplot_sharex": "test_groupby_boxplot_sharex"
+            },
+            "test_files": {
+                "pytest pandas/tests/plotting/test_frame.py::TestDataFramePlots::test_groupby_boxplot_sharey": "pandas/tests/plotting/test_frame.py",
+                "pytest pandas/tests/plotting/test_frame.py::TestDataFramePlots::test_groupby_boxplot_sharex": "pandas/tests/plotting/test_frame.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-20968__core-2601": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-20968__core-2601/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-20968__core-2601/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-20968_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/plotting/test_frame.py::TestDataFramePlots::test_groupby_boxplot_sharey": "test_groupby_boxplot_sharey",
+                "pytest pandas/tests/plotting/test_frame.py::TestDataFramePlots::test_groupby_boxplot_sharex": "test_groupby_boxplot_sharex"
+            },
+            "test_files": {
+                "pytest pandas/tests/plotting/test_frame.py::TestDataFramePlots::test_groupby_boxplot_sharey": "pandas/tests/plotting/test_frame.py",
+                "pytest pandas/tests/plotting/test_frame.py::TestDataFramePlots::test_groupby_boxplot_sharex": "pandas/tests/plotting/test_frame.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-21540_normalize": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-21540_normalize/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-21540_normalize/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-21540_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/io/json/test_normalize.py::TestJSONNormalize::test_value_array_record_prefix": "test_value_array_record_prefix"
+            },
+            "test_files": {
+                "pytest pandas/tests/io/json/test_normalize.py::TestJSONNormalize::test_value_array_record_prefix": "pandas/tests/io/json/test_normalize.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-21590_generic": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-21590_generic/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-21590_generic/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-21590_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/frame/test_operators.py::TestDataFrameOperators::test_neg_object": "test_neg_object",
+                "pytest pandas/tests/frame/test_operators.py::TestDataFrameOperators::test_pos_object": "test_pos_object"
+            },
+            "test_files": {
+                "pytest pandas/tests/frame/test_operators.py::TestDataFrameOperators::test_neg_object": "pandas/tests/frame/test_operators.py",
+                "pytest pandas/tests/frame/test_operators.py::TestDataFrameOperators::test_pos_object": "pandas/tests/frame/test_operators.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-21590_generic-1120": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-21590_generic-1120/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-21590_generic-1120/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-21590_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/frame/test_operators.py::TestDataFrameOperators::test_neg_object": "test_neg_object",
+                "pytest pandas/tests/frame/test_operators.py::TestDataFrameOperators::test_pos_object": "test_pos_object"
+            },
+            "test_files": {
+                "pytest pandas/tests/frame/test_operators.py::TestDataFrameOperators::test_neg_object": "pandas/tests/frame/test_operators.py",
+                "pytest pandas/tests/frame/test_operators.py::TestDataFrameOperators::test_pos_object": "pandas/tests/frame/test_operators.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-21590_generic-1131": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-21590_generic-1131/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-21590_generic-1131/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-21590_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/frame/test_operators.py::TestDataFrameOperators::test_neg_object": "test_neg_object",
+                "pytest pandas/tests/frame/test_operators.py::TestDataFrameOperators::test_pos_object": "test_pos_object"
+            },
+            "test_files": {
+                "pytest pandas/tests/frame/test_operators.py::TestDataFrameOperators::test_neg_object": "pandas/tests/frame/test_operators.py",
+                "pytest pandas/tests/frame/test_operators.py::TestDataFrameOperators::test_pos_object": "pandas/tests/frame/test_operators.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-22072_categorical": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-22072_categorical/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-22072_categorical/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-22072_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/indexes/multi/test_constructor.py::test_from_tuples_with_tuple_label": "test_from_tuples_with_tuple_label"
+            },
+            "test_files": {
+                "pytest pandas/tests/indexes/multi/test_constructor.py::test_from_tuples_with_tuple_label": "pandas/tests/indexes/multi/test_constructor.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-22198_base": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-22198_base/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-22198_base/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-22198_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/indexes/multi/test_constructor.py::test_from_tuples_with_tuple_label": "test_from_tuples_with_tuple_label"
+            },
+            "test_files": {
+                "pytest pandas/tests/indexes/multi/test_constructor.py::test_from_tuples_with_tuple_label": "pandas/tests/indexes/multi/test_constructor.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-22378_ops": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-22378_ops/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-22378_ops/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-22378_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/arithmetic/test_object.py::TestArithmetic::test_add_extension_scalar": "test_add_extension_scalar"
+            },
+            "test_files": {
+                "pytest pandas/tests/arithmetic/test_object.py::TestArithmetic::test_add_extension_scalar": "pandas/tests/arithmetic/test_object.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-22804_normalize": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-22804_normalize/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-22804_normalize/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-22804_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/io/json/test_normalize.py::TestJSONNormalize::test_nested_object_record_path": "test_nested_object_record_path"
+            },
+            "test_files": {
+                "pytest pandas/tests/io/json/test_normalize.py::TestJSONNormalize::test_nested_object_record_path": "pandas/tests/io/json/test_normalize.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-24572_html": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-24572_html/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-24572_html/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-24572_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/io/formats/test_to_html.py::TestToHTML::test_to_html_truncate_multi_index_sparse_off": "test_to_html_truncate_multi_index_sparse_off"
+            },
+            "test_files": {
+                "pytest pandas/tests/io/formats/test_to_html.py::TestToHTML::test_to_html_truncate_multi_index_sparse_off": "pandas/tests/io/formats/test_to_html.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-25533_series": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-25533_series/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-25533_series/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-25533_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/indexing/test_scalar.py::TestScalar::test_series_set_tz_timestamp": "test_series_set_tz_timestamp"
+            },
+            "test_files": {
+                "pytest pandas/tests/indexing/test_scalar.py::TestScalar::test_series_set_tz_timestamp": "pandas/tests/indexing/test_scalar.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-25759_indexing": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-25759_indexing/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-25759_indexing/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-25759_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/indexing/test_iloc.py::TestiLoc::test_iloc_non_integer_raises": "test_iloc_non_integer_raises"
+            },
+            "test_files": {
+                "pytest pandas/tests/indexing/test_iloc.py::TestiLoc::test_iloc_non_integer_raises": "pandas/tests/indexing/test_iloc.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-26765_categorical": {
+            "py_version": "3.7.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-26765_categorical/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-26765_categorical/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-26765_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/reshape/test_pivot.py::TestPivotTable::test_pivot_with_interval_index": "test_pivot_with_interval_index"
+            },
+            "test_files": {
+                "pytest pandas/tests/reshape/test_pivot.py::TestPivotTable::test_pivot_with_interval_index": "pandas/tests/reshape/test_pivot.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-28251_algorithms": {
+            "py_version": "3.7.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-28251_algorithms/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-28251_algorithms/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-28251_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/series/test_analytics.py::TestSeriesAnalytics::test_bool_diff": "test_bool_diff"
+            },
+            "test_files": {
+                "pytest pandas/tests/series/test_analytics.py::TestSeriesAnalytics::test_bool_diff": "pandas/tests/series/test_analytics.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-28412_series": {
+            "py_version": "3.7.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-28412_series/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-28412_series/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-28412_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/series/test_combine_concat.py::TestSeriesCombine::test_append_tuples": "test_append_tuples"
+            },
+            "test_files": {
+                "pytest pandas/tests/series/test_combine_concat.py::TestSeriesCombine::test_append_tuples": "pandas/tests/series/test_combine_concat.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-29103_cast": {
+            "py_version": "3.7.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-29103_cast/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-29103_cast/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-29103_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/dtypes/cast/test_downcast.py::test_downcast": "test_downcast"
+            },
+            "test_files": {
+                "pytest pandas/tests/dtypes/cast/test_downcast.py::test_downcast": "pandas/tests/dtypes/cast/test_downcast.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-30225_base": {
+            "py_version": "3.7.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-30225_base/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-30225_base/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-30225_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/indexing/test_categorical.py::TestCategoricalIndex::test_loc_slice": "test_loc_slice",
+                "pytest pandas/tests/indexing/test_categorical.py::TestCategoricalIndex::test_loc_with_non_string_categories": "test_loc_with_non_string_categories"
+            },
+            "test_files": {
+                "pytest pandas/tests/indexing/test_categorical.py::TestCategoricalIndex::test_loc_slice": "pandas/tests/indexing/test_categorical.py",
+                "pytest pandas/tests/indexing/test_categorical.py::TestCategoricalIndex::test_loc_with_non_string_categories": "pandas/tests/indexing/test_categorical.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-30532_generic": {
+            "py_version": "3.7.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-30532_generic/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-30532_generic/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-30532_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/groupby/test_transform.py::test_pct_change": "test_pct_change"
+            },
+            "test_files": {
+                "pytest pandas/tests/groupby/test_transform.py::test_pct_change": "pandas/tests/groupby/test_transform.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-30532_groupby": {
+            "py_version": "3.7.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-30532_groupby/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-30532_groupby/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-30532_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/groupby/test_transform.py::test_pct_change": "test_pct_change"
+            },
+            "test_files": {
+                "pytest pandas/tests/groupby/test_transform.py::test_pct_change": "pandas/tests/groupby/test_transform.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-31477_ops": {
+            "py_version": "3.7.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-31477_ops/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-31477_ops/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-31477_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/groupby/aggregate/test_aggregate.py::test_groupby_aggregate_period_column": "test_groupby_aggregate_period_column",
+                "pytest pandas/tests/groupby/aggregate/test_aggregate.py::test_groupby_aggregate_period_frame": "test_groupby_aggregate_period_frame"
+            },
+            "test_files": {
+                "pytest pandas/tests/groupby/aggregate/test_aggregate.py::test_groupby_aggregate_period_column": "pandas/tests/groupby/aggregate/test_aggregate.py",
+                "pytest pandas/tests/groupby/aggregate/test_aggregate.py::test_groupby_aggregate_period_frame": "pandas/tests/groupby/aggregate/test_aggregate.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-31905_base": {
+            "py_version": "3.7.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-31905_base/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-31905_base/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-31905_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/indexing/test_categorical.py::TestCategoricalIndex::test_loc_scalar": "test_loc_scalar",
+                "pytest pandas/tests/indexing/test_loc.py::TestLoc::test_loc_getitem_int": "test_loc_getitem_int",
+                "pytest pandas/tests/indexing/test_loc.py::TestLoc::test_loc_getitem_label_out_of_range": "test_loc_getitem_label_out_of_range",
+                "pytest pandas/tests/indexing/test_loc.py::test_loc_mixed_int_float": "test_loc_mixed_int_float",
+                "pytest pandas/tests/indexing/test_scalar.py::TestScalar2::test_series_at_raises_type_error": "test_series_at_raises_type_error",
+                "pytest pandas/tests/indexing/test_scalar.py::TestScalar2::test_frame_raises_key_error": "test_frame_raises_key_error"
+            },
+            "test_files": {
+                "pytest pandas/tests/indexing/test_categorical.py::TestCategoricalIndex::test_loc_scalar": "pandas/tests/indexing/test_categorical.py",
+                "pytest pandas/tests/indexing/test_loc.py::TestLoc::test_loc_getitem_int": "pandas/tests/indexing/test_loc.py",
+                "pytest pandas/tests/indexing/test_loc.py::TestLoc::test_loc_getitem_label_out_of_range": "pandas/tests/indexing/test_loc.py",
+                "pytest pandas/tests/indexing/test_loc.py::test_loc_mixed_int_float": "pandas/tests/indexing/test_loc.py",
+                "pytest pandas/tests/indexing/test_scalar.py::TestScalar2::test_series_at_raises_type_error": "pandas/tests/indexing/test_scalar.py",
+                "pytest pandas/tests/indexing/test_scalar.py::TestScalar2::test_frame_raises_key_error": "pandas/tests/indexing/test_scalar.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-32223_generic": {
+            "py_version": "3.7.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-32223_generic/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-32223_generic/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-32223_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/groupby/test_function.py::test_apply_to_nullable_integer_returns_float": "test_apply_to_nullable_integer_returns_float"
+            },
+            "test_files": {
+                "pytest pandas/tests/groupby/test_function.py::test_apply_to_nullable_integer_returns_float": "pandas/tests/groupby/test_function.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-32953_concat": {
+            "py_version": "3.7.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-32953_concat/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-32953_concat/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-32953_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/reshape/test_concat.py::TestConcatenate::test_concat_mapping": "test_concat_mapping"
+            },
+            "test_files": {
+                "pytest pandas/tests/reshape/test_concat.py::TestConcatenate::test_concat_mapping": "pandas/tests/reshape/test_concat.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-33373__json": {
+            "py_version": "3.7.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-33373__json/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-33373__json/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-33373_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/io/json/test_pandas.py::TestPandasContainer::test_readjson_bool_series": "test_readjson_bool_series"
+            },
+            "test_files": {
+                "pytest pandas/tests/io/json/test_pandas.py::TestPandasContainer::test_readjson_bool_series": "pandas/tests/io/json/test_pandas.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-34220_missing": {
+            "py_version": "3.7.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-34220_missing/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-34220_missing/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-34220_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/arrays/sparse/test_array.py::TestSparseArrayAnalytics::test_sum_min_count": "test_sum_min_count"
+            },
+            "test_files": {
+                "pytest pandas/tests/arrays/sparse/test_array.py::TestSparseArrayAnalytics::test_sum_min_count": "pandas/tests/arrays/sparse/test_array.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-36950_frame": {
+            "py_version": "3.7.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-36950_frame/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-36950_frame/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-36950_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/frame/apply/test_frame_apply.py::TestDataFrameAggregate::test_agg_args_kwargs": "test_agg_args_kwargs"
+            },
+            "test_files": {
+                "pytest pandas/tests/frame/apply/test_frame_apply.py::TestDataFrameAggregate::test_agg_args_kwargs": "pandas/tests/frame/apply/test_frame_apply.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-37096_algorithms": {
+            "py_version": "3.7.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-37096_algorithms/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-37096_algorithms/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-37096_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/frame/methods/test_combine_first.py::test_combine_first_with_nan_multiindex": "test_combine_first_with_nan_multiindex",
+                "pytest pandas/tests/test_sorting.py": ""
+            },
+            "test_files": {
+                "pytest pandas/tests/frame/methods/test_combine_first.py::test_combine_first_with_nan_multiindex": "pandas/tests/frame/methods/test_combine_first.py",
+                "pytest pandas/tests/test_sorting.py": "pandas/tests/test_sorting.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-37736_html": {
+            "py_version": "3.7.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-37736_html/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-37736_html/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-37736_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/io/test_html.py::TestReadHtml::test_parse_path_object": "test_parse_path_object"
+            },
+            "test_files": {
+                "pytest pandas/tests/io/test_html.py::TestReadHtml::test_parse_path_object": "pandas/tests/io/test_html.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-38220_generic": {
+            "py_version": "3.7.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-38220_generic/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-38220_generic/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-38220_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/frame/methods/test_drop.py::TestDataFrameDrop::test_drop_with_non_unique_multiindex": "test_drop_with_non_unique_multiindex"
+            },
+            "test_files": {
+                "pytest pandas/tests/frame/methods/test_drop.py::TestDataFrameDrop::test_drop_with_non_unique_multiindex": "pandas/tests/frame/methods/test_drop.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-38431_parsers": {
+            "py_version": "3.7.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-38431_parsers/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-38431_parsers/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-38431_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/io/parser/test_parse_dates.py::test_date_parser_and_names": "test_date_parser_and_names"
+            },
+            "test_files": {
+                "pytest pandas/tests/io/parser/test_parse_dates.py::test_date_parser_and_names": "pandas/tests/io/parser/test_parse_dates.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-39028-1_aggregation": {
+            "py_version": "3.7.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-39028-1_aggregation/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-39028-1_aggregation/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-39028-1_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/frame/apply/test_frame_transform.py::test_transform_mixed_column_name_dtypes": "test_transform_mixed_column_name_dtypes",
+                "pytest pandas/tests/resample/test_resample_api.py::test_agg_consistency_int_str_column_mix": "test_agg_consistency_int_str_column_mix"
+            },
+            "test_files": {
+                "pytest pandas/tests/frame/apply/test_frame_transform.py::test_transform_mixed_column_name_dtypes": "pandas/tests/frame/apply/test_frame_transform.py",
+                "pytest pandas/tests/resample/test_resample_api.py::test_agg_consistency_int_str_column_mix": "pandas/tests/resample/test_resample_api.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-39028-1_aggregation-486": {
+            "py_version": "3.7.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-39028-1_aggregation-486/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-39028-1_aggregation-486/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-39028-1_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/frame/apply/test_frame_transform.py::test_transform_mixed_column_name_dtypes": "test_transform_mixed_column_name_dtypes",
+                "pytest pandas/tests/resample/test_resample_api.py::test_agg_consistency_int_str_column_mix": "test_agg_consistency_int_str_column_mix"
+            },
+            "test_files": {
+                "pytest pandas/tests/frame/apply/test_frame_transform.py::test_transform_mixed_column_name_dtypes": "pandas/tests/frame/apply/test_frame_transform.py",
+                "pytest pandas/tests/resample/test_resample_api.py::test_agg_consistency_int_str_column_mix": "pandas/tests/resample/test_resample_api.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-39028-1_aggregation-489": {
+            "py_version": "3.7.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-39028-1_aggregation-489/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-39028-1_aggregation-489/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-39028-1_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/frame/apply/test_frame_transform.py::test_transform_mixed_column_name_dtypes": "test_transform_mixed_column_name_dtypes",
+                "pytest pandas/tests/resample/test_resample_api.py::test_agg_consistency_int_str_column_mix": "test_agg_consistency_int_str_column_mix"
+            },
+            "test_files": {
+                "pytest pandas/tests/frame/apply/test_frame_transform.py::test_transform_mixed_column_name_dtypes": "pandas/tests/frame/apply/test_frame_transform.py",
+                "pytest pandas/tests/resample/test_resample_api.py::test_agg_consistency_int_str_column_mix": "pandas/tests/resample/test_resample_api.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-39028-2_aggregation": {
+            "py_version": "3.7.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-39028-2_aggregation/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-39028-2_aggregation/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-39028-2_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/frame/apply/test_frame_transform.py::test_transform_mixed_column_name_dtypes": "test_transform_mixed_column_name_dtypes",
+                "pytest pandas/tests/resample/test_resample_api.py::test_agg_consistency_int_str_column_mix": "test_agg_consistency_int_str_column_mix"
+            },
+            "test_files": {
+                "pytest pandas/tests/frame/apply/test_frame_transform.py::test_transform_mixed_column_name_dtypes": "pandas/tests/frame/apply/test_frame_transform.py",
+                "pytest pandas/tests/resample/test_resample_api.py::test_agg_consistency_int_str_column_mix": "pandas/tests/resample/test_resample_api.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-39095_base": {
+            "py_version": "3.7.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-39095_base/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-39095_base/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-39095_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/frame/methods/test_reindex.py::TestDataFrameSelectReindex::test_reindex_frame_tz_ffill_bfill": "test_reindex_frame_tz_ffill_bfill"
+            },
+            "test_files": {
+                "pytest pandas/tests/frame/methods/test_reindex.py::TestDataFrameSelectReindex::test_reindex_frame_tz_ffill_bfill": "pandas/tests/frame/methods/test_reindex.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-40180_base": {
+            "py_version": "3.7.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-40180_base/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-40180_base/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-40180_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/reductions/test_reductions.py::TestSeriesReductions::test_numpy_all_any": "test_numpy_all_any"
+            },
+            "test_files": {
+                "pytest pandas/tests/reductions/test_reductions.py::TestSeriesReductions::test_numpy_all_any": "pandas/tests/reductions/test_reductions.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-41155_algorithms": {
+            "py_version": "3.7.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-41155_algorithms/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-41155_algorithms/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-41155_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/groupby/test_counting.py": "",
+                "pytest pandas/tests/groupby/test_function.py": "",
+                "pytest pandas/tests/groupby/test_groupby.py": "",
+                "pytest pandas/tests/groupby/test_rank.py": ""
+            },
+            "test_files": {
+                "pytest pandas/tests/groupby/test_counting.py": "pandas/tests/groupby/test_counting.py",
+                "pytest pandas/tests/groupby/test_function.py": "pandas/tests/groupby/test_function.py",
+                "pytest pandas/tests/groupby/test_groupby.py": "pandas/tests/groupby/test_groupby.py",
+                "pytest pandas/tests/groupby/test_rank.py": "pandas/tests/groupby/test_rank.py"
+            },
+            "used_framework": "pytest"
+        },
+        "pandas-41406_indexing": {
+            "py_version": "3.7.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-41406_indexing/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/pandas/pandas-41406_indexing/fixed",
+            "src_path": "homeassistant",
+            "env_name": "pandas-41406_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest pandas/tests/indexing/test_datetime.py::TestDatetimeIndex::test_str_subclass": "test_str_subclass"
+            },
+            "test_files": {
+                "pytest pandas/tests/indexing/test_datetime.py::TestDatetimeIndex::test_str_subclass": "pandas/tests/indexing/test_datetime.py"
+            },
+            "used_framework": "pytest"
+        },
+        "rasa-8704_model": {
+            "py_version": "3.7.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/rasa/rasa-8704_model/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/rasa/rasa-8704_model/fixed",
+            "src_path": "homeassistant",
+            "env_name": "rasa-8704_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "poetry run pytest tests/nlu/test_model.py::test_exception_pickling": "test_exception_pickling"
+            },
+            "test_files": {
+                "poetry run pytest tests/nlu/test_model.py::test_exception_pickling": "tests/nlu/test_model.py"
+            },
+            "used_framework": "pytest"
+        },
+        "rasa-8704_model-45": {
+            "py_version": "3.7.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/rasa/rasa-8704_model-45/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/rasa/rasa-8704_model-45/fixed",
+            "src_path": "homeassistant",
+            "env_name": "rasa-8704_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "poetry run pytest tests/nlu/test_model.py::test_exception_pickling": "test_exception_pickling"
+            },
+            "test_files": {
+                "poetry run pytest tests/nlu/test_model.py::test_exception_pickling": "tests/nlu/test_model.py"
+            },
+            "used_framework": "pytest"
+        },
+        "rasa-8704_model-60": {
+            "py_version": "3.7.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/rasa/rasa-8704_model-60/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/rasa/rasa-8704_model-60/fixed",
+            "src_path": "homeassistant",
+            "env_name": "rasa-8704_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "poetry run pytest tests/nlu/test_model.py::test_exception_pickling": "test_exception_pickling"
+            },
+            "test_files": {
+                "poetry run pytest tests/nlu/test_model.py::test_exception_pickling": "tests/nlu/test_model.py"
+            },
+            "used_framework": "pytest"
+        },
+        "requests-3179_models": {
+            "py_version": "3.6",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/requests/requests-3179_models/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/requests/requests-3179_models/fixed",
+            "src_path": "homeassistant",
+            "env_name": "requests-3179_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest tests/test_requests.py::TestRequests": "TestRequests"
+            },
+            "test_files": {
+                "pytest tests/test_requests.py::TestRequests": "tests/test_requests.py"
+            },
+            "used_framework": "pytest"
+        },
+        "requests-3368_models": {
+            "py_version": "3.6",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/requests/requests-3368_models/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/requests/requests-3368_models/fixed",
+            "src_path": "homeassistant",
+            "env_name": "requests-3368_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest tests/test_requests.py::TestRequests::test_response_chunk_size_type": "test_response_chunk_size_type"
+            },
+            "test_files": {
+                "pytest tests/test_requests.py::TestRequests::test_response_chunk_size_type": "tests/test_requests.py"
+            },
+            "used_framework": "pytest"
+        },
+        "requests-3390_utils": {
+            "py_version": "3.6",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/requests/requests-3390_utils/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/requests/requests-3390_utils/fixed",
+            "src_path": "homeassistant",
+            "env_name": "requests-3390_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest tests/test_requests.py::TestRequests::test_header_validation": "test_header_validation",
+                "pytest tests/test_requests.py::TestRequests::test_header_value_not_str": "test_header_value_not_str"
+            },
+            "test_files": {
+                "pytest tests/test_requests.py::TestRequests::test_header_validation": "tests/test_requests.py",
+                "pytest tests/test_requests.py::TestRequests::test_header_value_not_str": "tests/test_requests.py"
+            },
+            "used_framework": "pytest"
+        },
+        "requests-4723_utils": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/requests/requests-4723_utils/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/requests/requests-4723_utils/fixed",
+            "src_path": "homeassistant",
+            "env_name": "requests-4723_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest tests/test_utils.py::test_should_bypass_proxies": "test_should_bypass_proxies"
+            },
+            "test_files": {
+                "pytest tests/test_utils.py::test_should_bypass_proxies": "tests/test_utils.py"
+            },
+            "used_framework": "pytest"
+        },
+        "rich-919__inspect": {
+            "py_version": "3.8.1",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/rich/rich-919__inspect/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/rich/rich-919__inspect/fixed",
+            "src_path": "homeassistant",
+            "env_name": "rich-919_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "poetry run pytest tests/test_inspect.py::test_broken_call_attr": "test_broken_call_attr"
+            },
+            "test_files": {
+                "poetry run pytest tests/test_inspect.py::test_broken_call_attr": "tests/test_inspect.py"
+            },
+            "used_framework": "pytest"
+        },
+        "rich-919__inspect-88": {
+            "py_version": "3.8.1",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/rich/rich-919__inspect-88/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/rich/rich-919__inspect-88/fixed",
+            "src_path": "homeassistant",
+            "env_name": "rich-919_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "poetry run pytest tests/test_inspect.py::test_broken_call_attr": "test_broken_call_attr"
+            },
+            "test_files": {
+                "poetry run pytest tests/test_inspect.py::test_broken_call_attr": "tests/test_inspect.py"
+            },
+            "used_framework": "pytest"
+        },
+        "rich-919__inspect-92": {
+            "py_version": "3.8.1",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/rich/rich-919__inspect-92/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/rich/rich-919__inspect-92/fixed",
+            "src_path": "homeassistant",
+            "env_name": "rich-919_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "poetry run pytest tests/test_inspect.py::test_broken_call_attr": "test_broken_call_attr"
+            },
+            "test_files": {
+                "poetry run pytest tests/test_inspect.py::test_broken_call_attr": "tests/test_inspect.py"
+            },
+            "used_framework": "pytest"
+        },
+        "rich-919__inspect-145": {
+            "py_version": "3.8.1",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/rich/rich-919__inspect-145/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/rich/rich-919__inspect-145/fixed",
+            "src_path": "homeassistant",
+            "env_name": "rich-919_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "poetry run pytest tests/test_inspect.py::test_broken_call_attr": "test_broken_call_attr"
+            },
+            "test_files": {
+                "poetry run pytest tests/test_inspect.py::test_broken_call_attr": "tests/test_inspect.py"
+            },
+            "used_framework": "pytest"
+        },
+        "rich-919__inspect-183": {
+            "py_version": "3.8.1",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/rich/rich-919__inspect-183/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/rich/rich-919__inspect-183/fixed",
+            "src_path": "homeassistant",
+            "env_name": "rich-919_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "poetry run pytest tests/test_inspect.py::test_broken_call_attr": "test_broken_call_attr"
+            },
+            "test_files": {
+                "poetry run pytest tests/test_inspect.py::test_broken_call_attr": "tests/test_inspect.py"
+            },
+            "used_framework": "pytest"
+        },
+        "salt-33908_boto_lambda": {
+            "py_version": "2.7.18",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/salt/salt-33908_boto_lambda/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/salt/salt-33908_boto_lambda/fixed",
+            "src_path": "homeassistant",
+            "env_name": "salt-33908_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest tests/unit/states/boto_lambda_test.py::BotoLambdaFunctionTestCase::test_present_when_function_exists_and_permissions": "test_present_when_function_exists_and_permissions"
+            },
+            "test_files": {
+                "pytest tests/unit/states/boto_lambda_test.py::BotoLambdaFunctionTestCase::test_present_when_function_exists_and_permissions": "tests/unit/states/boto_lambda_test.py"
+            },
+            "used_framework": "pytest"
+        },
+        "salt-38947_shell": {
+            "py_version": "2.7.18",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/salt/salt-38947_shell/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/salt/salt-38947_shell/fixed",
+            "src_path": "homeassistant",
+            "env_name": "salt-38947_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "PYTHONPATH=./tests pytest tests/unit/ssh/ssh_single_test.py": ""
+            },
+            "test_files": {
+                "PYTHONPATH=./tests pytest tests/unit/ssh/ssh_single_test.py": "tests/unit/ssh/ssh_single_test.py"
+            },
+            "used_framework": "pytest"
+        },
+        "salt-50958_twilio_notify": {
+            "py_version": "3.6",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/salt/salt-50958_twilio_notify/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/salt/salt-50958_twilio_notify/fixed",
+            "src_path": "homeassistant",
+            "env_name": "salt-50958_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest tests/unit/modules/test_twilio_notify.py": ""
+            },
+            "test_files": {
+                "pytest tests/unit/modules/test_twilio_notify.py": "tests/unit/modules/test_twilio_notify.py"
+            },
+            "used_framework": "pytest"
+        },
+        "salt-53394_http": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/salt/salt-53394_http/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/salt/salt-53394_http/fixed",
+            "src_path": "homeassistant",
+            "env_name": "salt-53394_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest tests/unit/utils/test_http.py::HTTPTestCase::test_query_null_response": "test_query_null_response"
+            },
+            "test_files": {
+                "pytest tests/unit/utils/test_http.py::HTTPTestCase::test_query_null_response": "tests/unit/utils/test_http.py"
+            },
+            "used_framework": "pytest"
+        },
+        "salt-53394_http-108": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/salt/salt-53394_http-108/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/salt/salt-53394_http-108/fixed",
+            "src_path": "homeassistant",
+            "env_name": "salt-53394_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest tests/unit/utils/test_http.py::HTTPTestCase::test_query_null_response": "test_query_null_response"
+            },
+            "test_files": {
+                "pytest tests/unit/utils/test_http.py::HTTPTestCase::test_query_null_response": "tests/unit/utils/test_http.py"
+            },
+            "used_framework": "pytest"
+        },
+        "salt-53394_http-125": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/salt/salt-53394_http-125/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/salt/salt-53394_http-125/fixed",
+            "src_path": "homeassistant",
+            "env_name": "salt-53394_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest tests/unit/utils/test_http.py::HTTPTestCase::test_query_null_response": "test_query_null_response"
+            },
+            "test_files": {
+                "pytest tests/unit/utils/test_http.py::HTTPTestCase::test_query_null_response": "tests/unit/utils/test_http.py"
+            },
+            "used_framework": "pytest"
+        },
+        "salt-54240_ec2": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/salt/salt-54240_ec2/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/salt/salt-54240_ec2/fixed",
+            "src_path": "homeassistant",
+            "env_name": "salt-54240_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest tests/unit/cloud/clouds/test_ec2.py::EC2TestCase::test_get_imageid": "test_get_imageid"
+            },
+            "test_files": {
+                "pytest tests/unit/cloud/clouds/test_ec2.py::EC2TestCase::test_get_imageid": "tests/unit/cloud/clouds/test_ec2.py"
+            },
+            "used_framework": "pytest"
+        },
+        "salt-54785_state": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/salt/salt-54785_state/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/salt/salt-54785_state/fixed",
+            "src_path": "homeassistant",
+            "env_name": "salt-54785_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest tests/unit/modules/test_state.py::StateTestCase::test_show_states_missing_sls": "test_show_states_missing_sls"
+            },
+            "test_files": {
+                "pytest tests/unit/modules/test_state.py::StateTestCase::test_show_states_missing_sls": "tests/unit/modules/test_state.py"
+            },
+            "used_framework": "pytest"
+        },
+        "salt-56094___init__": {
+            "py_version": "3.6.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/salt/salt-56094___init__/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/salt/salt-56094___init__/fixed",
+            "src_path": "homeassistant",
+            "env_name": "salt-56094_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest tests/unit/test_ext.py::VendorTornadoTest::test_regression_56063": "test_regression_56063"
+            },
+            "test_files": {
+                "pytest tests/unit/test_ext.py::VendorTornadoTest::test_regression_56063": "tests/unit/test_ext.py"
+            },
+            "used_framework": "pytest"
+        },
+        "sanic-1334_blueprints": {
+            "py_version": "3.7.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/sanic/sanic-1334_blueprints/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/sanic/sanic-1334_blueprints/fixed",
+            "src_path": "homeassistant",
+            "env_name": "sanic-1334_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest tests/test_blueprints.py::test_bp_group_with_default_url_prefix": "test_bp_group_with_default_url_prefix"
+            },
+            "test_files": {
+                "pytest tests/test_blueprints.py::test_bp_group_with_default_url_prefix": "tests/test_blueprints.py"
+            },
+            "used_framework": "pytest"
+        },
+        "sanic-2008-1_static": {
+            "py_version": "3.7.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/sanic/sanic-2008-1_static/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/sanic/sanic-2008-1_static/fixed",
+            "src_path": "homeassistant",
+            "env_name": "sanic-2008-1_env",
+            "base_module_name": "homeassistant.",
+            "test_funcs": {
+                "pytest tests/test_static.py::test_static_file_pathlib": "test_static_file_pathlib",
+                "pytest tests/test_static.py::test_static_file_bytes": "test_static_file_bytes",
+                "pytest tests/test_static.py::test_static_file_invalid_path # \uc598\ub9cc \ud0c0\uc785\uc5d0\ub7ec \ubc1c\uc0dd": "test_static_file_invalid_path # \uc598\ub9cc \ud0c0\uc785\uc5d0\ub7ec \ubc1c\uc0dd"
+            },
+            "test_files": {
+                "pytest tests/test_static.py::test_static_file_pathlib": "tests/test_static.py",
+                "pytest tests/test_static.py::test_static_file_bytes": "tests/test_static.py",
+                "pytest tests/test_static.py::test_static_file_invalid_path # \uc598\ub9cc \ud0c0\uc785\uc5d0\ub7ec \ubc1c\uc0dd": "tests/test_static.py"
+            },
+            "used_framework": "pytest"
+        },
+        "scikit-learn-12603_kernels": {
+            "py_version": "3.6",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/scikit-learn/scikit-learn-12603_kernels/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/scikit-learn/scikit-learn-12603_kernels/fixed",
+            "src_path": "sklearn",
+            "env_name": "scikit-learn-12603_env",
+            "base_module_name": "sklearn.",
+            "test_funcs": {
+                "pytest sklearn/gaussian_process/tests/test_kernels.py::test_rational_quadratic_kernel": "test_rational_quadratic_kernel"
+            },
+            "test_files": {
+                "pytest sklearn/gaussian_process/tests/test_kernels.py::test_rational_quadratic_kernel": "sklearn/gaussian_process/tests/test_kernels.py"
+            },
+            "used_framework": "pytest"
+        },
+        "scikit-learn-17233_multiclass": {
+            "py_version": "3.7.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/scikit-learn/scikit-learn-17233_multiclass/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/scikit-learn/scikit-learn-17233_multiclass/fixed",
+            "src_path": "sklearn",
+            "env_name": "scikit-learn-17233_env",
+            "base_module_name": "sklearn.",
+            "test_funcs": {
+                "pytest sklearn/tests/test_multiclass.py::test_ecoc_delegate_sparse_base_estimator": "test_ecoc_delegate_sparse_base_estimator"
+            },
+            "test_files": {
+                "pytest sklearn/tests/test_multiclass.py::test_ecoc_delegate_sparse_base_estimator": "sklearn/tests/test_multiclass.py"
+            },
+            "used_framework": "pytest"
+        },
+        "scikit-learn-17233_multiclass-805": {
+            "py_version": "3.7.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/scikit-learn/scikit-learn-17233_multiclass-805/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/scikit-learn/scikit-learn-17233_multiclass-805/fixed",
+            "src_path": "sklearn",
+            "env_name": "scikit-learn-17233_env",
+            "base_module_name": "sklearn.",
+            "test_funcs": {
+                "pytest sklearn/tests/test_multiclass.py::test_ecoc_delegate_sparse_base_estimator": "test_ecoc_delegate_sparse_base_estimator"
+            },
+            "test_files": {
+                "pytest sklearn/tests/test_multiclass.py::test_ecoc_delegate_sparse_base_estimator": "sklearn/tests/test_multiclass.py"
+            },
+            "used_framework": "pytest"
+        },
+        "scikit-learn-17233_multiclass-853": {
+            "py_version": "3.7.9",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/scikit-learn/scikit-learn-17233_multiclass-853/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/scikit-learn/scikit-learn-17233_multiclass-853/fixed",
+            "src_path": "sklearn",
+            "env_name": "scikit-learn-17233_env",
+            "base_module_name": "sklearn.",
+            "test_funcs": {
+                "pytest sklearn/tests/test_multiclass.py::test_ecoc_delegate_sparse_base_estimator": "test_ecoc_delegate_sparse_base_estimator"
+            },
+            "test_files": {
+                "pytest sklearn/tests/test_multiclass.py::test_ecoc_delegate_sparse_base_estimator": "sklearn/tests/test_multiclass.py"
+            },
+            "used_framework": "pytest"
+        },
+        "scikit-learn-7064_base": {
+            "py_version": "3.6",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/scikit-learn/scikit-learn-7064_base/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/scikit-learn/scikit-learn-7064_base/fixed",
+            "src_path": "sklearn",
+            "env_name": "scikit-learn-7064_env",
+            "base_module_name": "sklearn.",
+            "test_funcs": {
+                "pytest sklearn/svm/tests/test_svm.py::test_unicode_kernel": "test_unicode_kernel"
+            },
+            "test_files": {
+                "pytest sklearn/svm/tests/test_svm.py::test_unicode_kernel": "sklearn/svm/tests/test_svm.py"
+            },
+            "used_framework": "pytest"
+        },
+        "scikit-learn-7259_kernels": {
+            "py_version": "3.6",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/scikit-learn/scikit-learn-7259_kernels/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/scikit-learn/scikit-learn-7259_kernels/fixed",
+            "src_path": "sklearn",
+            "env_name": "scikit-learn-7259_env",
+            "base_module_name": "sklearn.",
+            "test_funcs": {
+                "pytest sklearn/gaussian_process/tests/test_kernels.py::test_repr_kernels": "test_repr_kernels"
+            },
+            "test_files": {
+                "pytest sklearn/gaussian_process/tests/test_kernels.py::test_repr_kernels": "sklearn/gaussian_process/tests/test_kernels.py"
+            },
+            "used_framework": "pytest"
+        },
+        "scikit-learn-7259_kernels-1210": {
+            "py_version": "3.6",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/scikit-learn/scikit-learn-7259_kernels-1210/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/scikit-learn/scikit-learn-7259_kernels-1210/fixed",
+            "src_path": "sklearn",
+            "env_name": "scikit-learn-7259_env",
+            "base_module_name": "sklearn.",
+            "test_funcs": {
+                "pytest sklearn/gaussian_process/tests/test_kernels.py::test_repr_kernels": "test_repr_kernels"
+            },
+            "test_files": {
+                "pytest sklearn/gaussian_process/tests/test_kernels.py::test_repr_kernels": "sklearn/gaussian_process/tests/test_kernels.py"
+            },
+            "used_framework": "pytest"
+        },
+        "scikit-learn-7259_kernels-1356": {
+            "py_version": "3.6",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/scikit-learn/scikit-learn-7259_kernels-1356/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/scikit-learn/scikit-learn-7259_kernels-1356/fixed",
+            "src_path": "sklearn",
+            "env_name": "scikit-learn-7259_env",
+            "base_module_name": "sklearn.",
+            "test_funcs": {
+                "pytest sklearn/gaussian_process/tests/test_kernels.py::test_repr_kernels": "test_repr_kernels"
+            },
+            "test_files": {
+                "pytest sklearn/gaussian_process/tests/test_kernels.py::test_repr_kernels": "sklearn/gaussian_process/tests/test_kernels.py"
+            },
+            "used_framework": "pytest"
+        },
+        "scikit-learn-8973_coordinate_descent": {
+            "py_version": "3.6",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/scikit-learn/scikit-learn-8973_coordinate_descent/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/scikit-learn/scikit-learn-8973_coordinate_descent/fixed",
+            "src_path": "sklearn",
+            "env_name": "scikit-learn-8973_env",
+            "base_module_name": "sklearn.",
+            "test_funcs": {
+                "pytest sklearn/linear_model/tests/test_coordinate_descent.py::test_lasso_cv_with_some_model_selection": "test_lasso_cv_with_some_model_selection"
+            },
+            "test_files": {
+                "pytest sklearn/linear_model/tests/test_coordinate_descent.py::test_lasso_cv_with_some_model_selection": "sklearn/linear_model/tests/test_coordinate_descent.py"
+            },
+            "used_framework": "pytest"
+        },
+        "tornado-1689_web": {
+            "py_version": "3.6",
+            "buggy_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/tornado/tornado-1689_web/focal",
+            "fixed_project_path": "/data/yangchen/llm_teut/data/typebugs/checkout_projects/tornado/tornado-1689_web/fixed",
+            "src_path": "sklearn",
+            "env_name": "tornado-1689_env",
+            "base_module_name": "sklearn.",
+            "test_funcs": {
+                "pytest tornado/test/web_test.py::XSRFTest::test_xsrf_fail_argument_invalid_format": "test_xsrf_fail_argument_invalid_format",
+                "pytest tornado/test/web_test.py::XSRFTest::test_xsrf_fail_cookie_invalid_format": "test_xsrf_fail_cookie_invalid_format"
+            },
+            "test_files": {
+                "pytest tornado/test/web_test.py::XSRFTest::test_xsrf_fail_argument_invalid_format": "tornado/test/web_test.py",
+                "pytest tornado/test/web_test.py::XSRFTest::test_xsrf_fail_cookie_invalid_format": "tornado/test/web_test.py"
+            },
+            "used_framework": "pytest"
+        }
+    }
+}

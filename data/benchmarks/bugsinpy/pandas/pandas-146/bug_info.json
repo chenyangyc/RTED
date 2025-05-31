@@ -1,0 +1,28 @@
+{
+    "added": {
+        "pandas/core/dtypes/missing.py": [
+            false,
+            false
+        ]
+    },
+    "buggy_id": "5ebb1e4",
+    "buglines": {
+        "pandas/core/dtypes/missing.py": [
+            448,
+            449
+        ]
+    },
+    "code_files": [
+        "pandas/core/dtypes/missing.py"
+    ],
+    "fixed_pr_id": "74cba561ece511e24abb5145225bf98a929ca6c9",
+    "git": "https://github.com/pandas-dev/pandas.git",
+    "py_version": "3.8.3",
+    "test_class": [],
+    "test_files": [
+        "pandas/tests/dtypes/test_missing.py"
+    ],
+    "test_func": [
+        "test_array_equivalent_tzawareness"
+    ]
+}

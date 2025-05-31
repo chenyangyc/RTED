@@ -1,0 +1,54 @@
+{
+    "added": {
+        "pandas/core/indexes/interval.py": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+        ]
+    },
+    "buggy_id": "ebbe2a2",
+    "buglines": {
+        "pandas/core/indexes/interval.py": [
+            962,
+            963,
+            964,
+            965,
+            966,
+            967,
+            968,
+            969,
+            970,
+            971,
+            972,
+            973,
+            974,
+            975
+        ]
+    },
+    "code_files": [
+        "pandas/core/indexes/interval.py"
+    ],
+    "fixed_pr_id": "8a354b7630f74739212725c38cbaa9b069191a88",
+    "git": "https://github.com/pandas-dev/pandas.git",
+    "py_version": "3.8.3",
+    "test_class": [
+        "TestDataFrameAnalytics"
+    ],
+    "test_files": [
+        "pandas/tests/frame/test_analytics.py"
+    ],
+    "test_func": [
+        "test_round_interval_category_columns"
+    ]
+}

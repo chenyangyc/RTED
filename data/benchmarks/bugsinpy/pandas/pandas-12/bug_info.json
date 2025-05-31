@@ -1,0 +1,42 @@
+{
+    "added": {
+        "pandas/core/frame-7874.py": [
+            false
+        ],
+        "pandas/core/frame-8009.py": [
+            false
+        ],
+        "pandas/core/frame.py": [
+            false,
+            false
+        ]
+    },
+    "buggy_id": "9bd296c",
+    "buglines": {
+        "pandas/core/frame-7874.py": [
+            7873
+        ],
+        "pandas/core/frame-8009.py": [
+            8008
+        ],
+        "pandas/core/frame.py": [
+            7874,
+            8009
+        ]
+    },
+    "code_files": [
+        "pandas/core/frame.py"
+    ],
+    "fixed_pr_id": "8aa707298428801199280b2b994632080591700a",
+    "git": "https://github.com/pandas-dev/pandas.git",
+    "py_version": "3.8.3",
+    "test_class": [
+        "TestDataFrameCov"
+    ],
+    "test_files": [
+        "pandas/tests/frame/methods/test_cov_corr.py"
+    ],
+    "test_func": [
+        "test_cov_nullable_integer"
+    ]
+}

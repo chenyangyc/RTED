@@ -1,0 +1,42 @@
+{
+    "added": {
+        "pandas/core/dtypes/missing-145.py": [
+            false
+        ],
+        "pandas/core/dtypes/missing-176.py": [
+            false
+        ],
+        "pandas/core/dtypes/missing.py": [
+            false,
+            false
+        ]
+    },
+    "buggy_id": "cb41651",
+    "buglines": {
+        "pandas/core/dtypes/missing-145.py": [
+            145
+        ],
+        "pandas/core/dtypes/missing-176.py": [
+            176
+        ],
+        "pandas/core/dtypes/missing.py": [
+            145,
+            176
+        ]
+    },
+    "code_files": [
+        "pandas/core/dtypes/missing.py"
+    ],
+    "fixed_pr_id": "51f114b9882a5cf819efddb8be74524814f437e1",
+    "git": "https://github.com/pandas-dev/pandas.git",
+    "py_version": "3.8.3",
+    "test_class": [
+        "TestIsNA"
+    ],
+    "test_files": [
+        "pandas/tests/dtypes//test_missing.py"
+    ],
+    "test_func": [
+        "test_isna_old_datetimelike"
+    ]
+}

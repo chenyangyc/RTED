@@ -1,0 +1,28 @@
+{
+    "added": {
+        "pandas/core/algorithms.py": [
+            false
+        ]
+    },
+    "buggy_id": "7721f31",
+    "buglines": {
+        "pandas/core/algorithms.py": [
+            1965
+        ]
+    },
+    "code_files": [
+        "pandas/core/algorithms.py"
+    ],
+    "fixed_pr_id": "65815e6f33e25991e3d40a53c581ffb3c7daf70f",
+    "git": "https://github.com/pandas-dev/pandas.git",
+    "py_version": "3.8.3",
+    "test_class": [
+        "TestSeriesAnalytics"
+    ],
+    "test_files": [
+        "pandas/tests/series/test_analytics.py"
+    ],
+    "test_func": [
+        "test_bool_diff"
+    ]
+}
