@@ -8,9 +8,7 @@ Type errors in Python often lead to runtime failures, posing significant challen
 Recently, unit test generation techniques have shown promise in achieving high coverage, but they often struggle to produce **bug-revealing** tests without tailored guidance.
 To address these limitations, we propose **RTED**, a novel **type-aware test generation framework** for automatically detecting Python type errors. RTED combines **step-by-step type constraint analysis** with **reflective validation** to guide test generation and effectively suppress false positives.
 
-<p align="center">
-  <img src="./figs/overview.png" alt="Overview of RTED" width="600"/>
-</p>
+![Overview of RTED](./figs/overview.png)
 <p align="center"><b>Figure 1:</b> Overview of RTED</p>
 
 ## Repository Structure
