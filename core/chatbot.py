@@ -1,9 +1,3 @@
-# import openai
-
-# openai.api_key = "EMPTY"
-# openai.api_base = "http://172.28.102.8:6668/v1"
-# my_model = "Phind-CodeLlama-34B-v2"
-
 from openai import OpenAI
 import time
 
@@ -15,16 +9,11 @@ class ChatBot:
         self.api_key = api_key
         self.base_url = base_url
         self.model = model
-        # "sk-6bb712413c554d1eb8f8088be901c3c0"
-        # "https://api.deepseek.com/beta"
-        # "deepseek-chat"
         
         self.system_prompt = system_prompt
         self.temperature = temperature       
         self.max_tokens = max_tokens
         self.max_context = 20
-        # ("You are an intelligent programming assistant to help user writing python unit tests. "
-                            #   "If you provide code in your response, the code you write should be in format ```python <code> ```")
 
     def chat(self, prompt, prefix_output, add_to_history):
         prompts = [{"role":"system", "content": self.system_prompt}]

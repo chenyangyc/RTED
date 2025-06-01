@@ -138,8 +138,8 @@ def extract_call_chains(modules, function_dict, project_path):
     logger.info("Extracting call chains...")
     for single_module in tqdm(modules, desc="Extracting call chains", total=len(modules)):
         module_path = single_module.module_path
-        output_dir = '/data/yangchen/llm_teut/jarvis.json'
-        javis_cmd = ['conda', 'run', '-n', 'llm', 'python', '/data/yangchen/llm_teut/assistant_tools/Jarvis/tool/Jarvis/jarvis_cli.py', module_path, '--package', project_path, '--output', output_dir]
+        output_dir = 'jarvis.json'
+        javis_cmd = ['conda', 'run', '-n', 'llm', 'python', 'assistant_tools/Jarvis/tool/Jarvis/jarvis_cli.py', module_path, '--package', project_path, '--output', output_dir]
         try:
             subprocess.run(javis_cmd, check=True)
         except subprocess.CalledProcessError as e:
@@ -205,9 +205,9 @@ def analyze_all_call_chains(function_dict):
     return all_called_chains
 
 if __name__ == "__main__":
-    with open('/data/yangchen/llm_teut/data/all_bug_info.json') as f:
+    with open('data/all_bug_info.json') as f:
         all_bug_info = json.load(f)
-    with open('/data/yangchen/llm_teut/data/project_info/done.json') as f:
+    with open('data/project_info/done.json') as f:
         done_ans = json.load(f)
     for benchmark, bug_info in all_bug_info.items():
         for project_name, bug_info in bug_info.items():
@@ -226,22 +226,22 @@ if __name__ == "__main__":
                 extract_call_chains(modules, function_dict, project_path)
                 all_called_chains = analyze_all_call_chains(function_dict)
                 
-                pkl_save_path = Path(f'/data/yangchen/llm_teut/data/project_info/{benchmark}/{project_type}/{project_name}/modules.pkl')
+                pkl_save_path = Path(f'data/project_info/{benchmark}/{project_type}/{project_name}/modules.pkl')
                 pkl_save_path.parent.mkdir(parents=True, exist_ok=True)
                 with open(pkl_save_path, 'wb') as f:
                     pickle.dump(modules, f)
-                function_dict_save_path = Path(f'/data/yangchen/llm_teut/data/project_info/{benchmark}/{project_type}/{project_name}/function_dict.pkl')
+                function_dict_save_path = Path(f'data/project_info/{benchmark}/{project_type}/{project_name}/function_dict.pkl')
                 with open(function_dict_save_path, 'wb') as f:
                     pickle.dump(function_dict, f)
-                all_called_chains_save_path = Path(f'/data/yangchen/llm_teut/data/project_info/{benchmark}/{project_type}/{project_name}/called_chains.pkl')
+                all_called_chains_save_path = Path(f'data/project_info/{benchmark}/{project_type}/{project_name}/called_chains.pkl')
                 with open(all_called_chains_save_path, 'wb') as f:
                     pickle.dump(all_called_chains, f)
                 done_ans[benchmark][project_type].append(project_name)
-                with open('/data/yangchen/llm_teut/data/project_info/done.json', 'w') as f:
+                with open('data/project_info/done.json', 'w') as f:
                     json.dump(done_ans, f, indent=4)
                 logger.info(f"Finished processing project {project_name}.")
-    # project_path = '/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/fastapi/7/focal'
-    # src_path = '/data/yangchen/llm_teut/data/bugsinpy/checkout_projects/fastapi/7/focal/fastapi'
+    # project_path = 'data/bugsinpy/checkout_projects/fastapi/7/focal'
+    # src_path = 'data/bugsinpy/checkout_projects/fastapi/7/focal/fastapi'
     # base_module_name = 'fastapi.'
     # project_name = 'fastapi_7'
     # modules, function_dict = parser_project(src_path, project_name, base_module_name)

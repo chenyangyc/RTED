@@ -1,4 +1,0 @@
-python our_chain_repair_gen.py
-python our_chain_repair_gen_seperate.py
-python our_chain_repair_gen_typebugs.py
-python run_type_conjecture_prompt_typebugs.py
