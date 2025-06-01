@@ -15,10 +15,10 @@ def reformat_prompt(prompt):
 
 
 todo_prompt_cache_files = [
-    '/data/yangchen/llm_teut/data/prompt_cache/bugs_in_py/0426_our_repair_iterative_chain_no_raise.pkl',
-    '/data/yangchen/llm_teut/data/prompt_cache/bugs_in_py/0426_our_repair_seperate_chain_no_raise.pkl',
-    '/data/yangchen/llm_teut/data/prompt_cache/typebugs/0426_our_repair_iterative_chain_no_raise_typebugs.pkl',
-    '/data/yangchen/llm_teut/data/prompt_cache/typebugs/0426_our_repair_seperate_chain_no_raise_typebugs.pkl'
+    'data/prompt_cache/bugs_in_py/0426_our_repair_iterative_chain_no_raise.pkl',
+    'data/prompt_cache/bugs_in_py/0426_our_repair_seperate_chain_no_raise.pkl',
+    'data/prompt_cache/typebugs/0426_our_repair_iterative_chain_no_raise_typebugs.pkl',
+    'data/prompt_cache/typebugs/0426_our_repair_seperate_chain_no_raise_typebugs.pkl'
 ]
 
 
