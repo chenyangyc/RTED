@@ -31,6 +31,8 @@ The workflow consists of 5 main steps:
 4. **Type Constraint Inference** (Step 3)
 5. **Test Generation and Validation** (Step 4)
 
+For a quick start, steps 1–3 have been preprocessed and the resulting data are stored in the `data` folder. You can directly run test generation after setting up the benchmark and environment.
+
 ---
 
 ## Step 0: Benchmark Setup and Preprocessing
