@@ -163,3 +163,4 @@ bk_trash/*
 !data/prompt_cache
 !data/*.json
 !data/new_proj_res
+!data
