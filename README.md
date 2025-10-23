@@ -341,6 +341,9 @@ conda_base = '/root/anaconda3'
 6. **Generate and validate tests**: Execute step 4 for test generation and evaluation
 
 Each step builds upon the previous step's output, so the order is critical for the complete workflow.
+
 ## Coming Soon
 
 We plan to release a Docker image for easy setup and reproducibility.
+
+Moreover, this project is part of an ongoing effort to integrate with advanced testing tools. In particular, RTED corresponds to the defect module of the WiseUT (https://github.com/chenyangyc/WiseUT) framework.
