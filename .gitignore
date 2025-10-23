@@ -150,7 +150,6 @@ parse_test_case.py
 test_*.py
 
 assistant_tools/
-data/*
 bk_trash
 bk_trash/*
 
