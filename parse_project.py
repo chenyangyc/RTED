@@ -1,5 +1,6 @@
 import json
 import os
+import re
 import pickle
 import sys
 import subprocess
@@ -9,6 +10,9 @@ import tree_sitter_python as ts_python
 from pathlib import Path
 from loguru import logger
 from tqdm import tqdm
+from utils.file_parse import extract_module
+from collections import defaultdict
+# from core.chatbot import ChatBot
 from utils.file_parse import extract_module
 
 PYTHON_LANGUAGE = Language(ts_python.language())
@@ -203,6 +207,93 @@ def analyze_all_call_chains(function_dict):
             call_chain[i - 1]['called_function_parameter'] = call_chain[i]['function_parameter']
             call_chain[i - 1]['split_result'] = split_result['result']
     return all_called_chains
+
+
+def extract_method_from_file_and_line(file_and_lines):
+    final_methods = []
+    for single_chain in file_and_lines:
+        single_final_methods = []
+        for file_and_line in single_chain:
+            file_path = file_and_line[0]
+            line_no = file_and_line[1]
+            try:
+                single_module, all_classes, all_methods = extract_module(file_path)
+
+                line2method = defaultdict()
+                for single_method in all_methods:
+                    for line in single_method.line_range:
+                        line2method[line] = single_method
+                if int(line_no) in line2method:
+                    if not single_final_methods:
+                        single_final_methods.append((file_path, line2method[int(line_no)]))
+                    elif (file_path, line2method[int(line_no)]) != single_final_methods[-1]:
+                        single_final_methods.append((file_path, line2method[int(line_no)]))
+    
+            except:
+                # print(f'Extract method from file and line error: {file_path}')
+                continue
+        if single_final_methods:
+            final_methods.append(single_final_methods)
+    return final_methods
+
+
+def extract_method_chain_from_test_output(output, test_cmd, focal_dir):
+    if 'pytest' in test_cmd:
+        pattern = r".*?([\w./-]+):(\d+):.*"
+        test_func_name = test_cmd.strip().split('::')[-1]
+        # test_path = test_cmd.strip().split(' ')[-1].split('::')[0]
+        # test_file_name = test_cmd.strip().split(' ')[-1].split('::')[0]
+        split_format = f'{test_func_name}'
+    elif 'unittest' in test_cmd:
+        pattern = r'File "(.*)", line (\d+), in'
+        test_func_name = test_cmd.strip().split('.')[-1]
+        # test_path = test_cmd.strip().split(' ')[-1].split('.')[]
+        split_format = f'ERROR: {test_func_name}'
+
+    # truncate till '------ Captured'
+    if '------ Captured' in output:
+        output = output.split('------ Captured')[0]
+    
+    if 'warnings summary' in output:
+        output = output.split('warnings summary')[0]
+        
+    # matches = re.findall(pattern, output)
+    
+    splited_test_ouput = output.split(split_format)
+    
+    all_methods = []
+    for single_output in splited_test_ouput:
+        matches = re.findall(pattern, single_output)
+        single_methods = []
+        
+        flag = False
+        for single_match in matches:
+            file_path = single_match[0]
+            line_no = single_match[1]
+            
+            if '.py' not in file_path:
+                continue
+            
+            if 'pytest' in test_cmd:
+                file_path = os.path.join(focal_dir, file_path)
+            
+            if flag == False and 'test' not in file_path:
+                continue
+            else:
+                flag = True
+                
+            # if (file_path, line_no) not in single_methods:
+            if not single_methods:
+                single_methods.append((file_path, line_no))
+            elif (file_path, line_no) != single_methods[-1]:
+                single_methods.append((file_path, line_no))
+    
+        if single_methods and single_methods not in all_methods:
+            all_methods.append(single_methods)
+
+    return all_methods
+
+
 
 if __name__ == "__main__":
     with open('data/all_bug_info.json') as f:

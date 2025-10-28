@@ -3,14 +3,13 @@ import re
 import json
 import pickle
 import logging
-import subprocess
 from collections import defaultdict
 from core.chatbot import ChatBot
 from data.configurations import example_response, bugs_in_py_checkout_proj_dir, typebugs_checkout_proj_dir, code_base, conda_base, test_related_info_bugsinpy, test_related_info_typebugs, api_key, base_url, model, temperature, verification_api_key, verification_base_url, verification_model, verification_temperature, semantic_verification_system_prompt, coordinator_system_prompt, generation_system_prompt, type_verification_system_prompt
 from utils.file_parse import extract_functions_for_llm, extract_module, change_assert_to_pass_in_test, refactor_test_res
 from utils.run_test_util import write_test_file, run_test_and_collect_cov_lightweight, is_triggered
 from utils.construct_prompts import construct_type_constraints_verification_prompt_non_buggy,construct_semantic_verification_prompt, construct_refine_prompt_non_buggy, construct_coordinator_prompt
-from extract_triggering_focal_method_bugsinpy import extract_method_from_file_and_line, extract_method_chain_from_test_output
+from parse_project import extract_method_from_file_and_line, extract_method_chain_from_test_output
 
 
 def reformat_prompt(prompt):

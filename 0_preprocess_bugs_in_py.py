@@ -47,6 +47,7 @@ def setup_all_envs(bugs_in_py_meta_data_dir, info_file):
         for bug_id, bug_info in bugs.items():
             py_version = bug_info['py_version']
             env_name = f'{proj_name}_{bug_id}_env'
+            print(f'Setting up environment for {proj_name} bug {bug_id} with Python {py_version}')
             
             if env_name in existing_envs:
                 print(f"Environment {env_name} already exists. Skipping.")
@@ -90,10 +91,12 @@ def setup_single_proj_env(py_version, proj_name, bug_id, bugs_in_py_meta_data_di
         # subprocess.run(['conda', 'remove', '-n', env_name, '--all'], input='y\n', text=True)
 
     try:
+        print(f"conda create -n {env_name} python={py_version}")
         res1 = subprocess.run(['conda', 'create', '-n', env_name, f'python={py_version}'], input='y\n', text=True, capture_output=True, check=True)
         output = res1.stdout + res1.stderr
         
         requirements_files = f'{bugs_in_py_meta_data_dir}/{proj_name}/{proj_name}-{bug_id}/requirements.txt'
+        print(f'{conda_base}/envs/{env_name}/bin/pip install -r {requirements_files}')
         res2 = subprocess.run([f'{conda_base}/envs/{env_name}/bin/pip', 'install', '-r', requirements_files], capture_output=True)
         output = output+ res2.stdout.decode('utf-8') + res2.stderr.decode('utf-8')
         
@@ -106,6 +109,7 @@ def setup_single_proj_env(py_version, proj_name, bug_id, bugs_in_py_meta_data_di
         final_res = False
             
     if final_res == False:
+        print(f'conda remove -n {env_name} --all')
         subprocess.run(['conda', 'remove', '-n', env_name, '--all'], input='y\n', text=True)
         with open(f'{log_dir}/{proj_name}-{bug_id}.log', 'w') as f:
             f.write(f"Failed to create environment for {proj_name} with Python version {py_version}.")
@@ -147,8 +151,8 @@ def setup_bugsinpy_bugs(bugs_in_py_base_proj_dir, bugs_in_py_checkout_proj_dir, 
     os.makedirs(log_dir, exist_ok=True)
     
     for proj_name, bugs in all_bug_data.items():
-        if not any([i in proj_name for i in ['spacy']]):
-            continue
+        # if not any([i in proj_name for i in ['spacy']]):
+        #     continue
         
         base_proj = os.path.join(bugs_in_py_base_proj_dir, proj_name)
         if not os.path.exists(base_proj):
@@ -169,35 +173,41 @@ def setup_bugsinpy_bugs(bugs_in_py_base_proj_dir, bugs_in_py_checkout_proj_dir, 
                 continue
             
             env_name = f'{proj_name}_{bug_id}_env'
-            
 
             fixed_dir = os.path.join(single_bug_dir, 'fixed')
             buggy_dir = os.path.join(single_bug_dir, 'buggy')
             focal_dir = os.path.join(single_bug_dir, 'focal')
-            
-            # Create necessary directories
-            os.makedirs(fixed_dir, exist_ok=True)
-            os.makedirs(buggy_dir, exist_ok=True)
-            os.makedirs(focal_dir, exist_ok=True)
 
             fixed_commit = bug_info['fixed_pr_id']
             buggy_commit = bug_info['buggy_id']
+            print(f"fixed_commit: {fixed_commit}, buggy_commit: {buggy_commit}")
             
             try:
                 env = os.environ.copy()
                 env['PATH'] = f"{python_dir}:{env['PATH']}"
             
                 if not os.path.exists(fixed_dir):
+                    # Create necessary directories
+                    os.makedirs(fixed_dir, exist_ok=True)
                     # Checkout fixed commit
+                    print(f'git checkout {fixed_commit}')
                     subprocess.run(['git', 'checkout', fixed_commit], cwd=base_proj, check=True)
+                    print(f'cp -r . {fixed_dir}')
                     subprocess.run(['cp', '-r', '.', fixed_dir], cwd=base_proj, check=True)
 
                 if not os.path.exists(buggy_dir):
+                    # Create necessary directories
+                    os.makedirs(buggy_dir, exist_ok=True)
                     # Checkout buggy commit
+                    print(f'git checkout {buggy_commit}')
                     subprocess.run(['git', 'checkout', buggy_commit], cwd=base_proj, check=True)
+                    print(f'cp -r . {buggy_dir}')
                     subprocess.run(['cp', '-r', '.', buggy_dir], cwd=base_proj, check=True)
                 
                 if not os.path.exists(focal_dir):
+                    # Create necessary directories
+                    os.makedirs(focal_dir, exist_ok=True)
+                    print(f'cp -r ./ * {focal_dir}')
                     subprocess.run(f'cp -r ./ * {focal_dir}', shell=True, cwd=fixed_dir, check=True)
                     
                     for buggy_file_name in bug_info["code_files"]:
@@ -209,29 +219,28 @@ def setup_bugsinpy_bugs(bugs_in_py_base_proj_dir, bugs_in_py_checkout_proj_dir, 
                         with open(to_be_replace_file_path, 'w') as f:
                             f.write(buggy_content)
                 
-                if 'pandas' in proj_name:
-                    subprocess.run([f'git config --global --add safe.directory {fixed_dir}'], cwd=fixed_dir, env=env, check=True, shell=True)
-                    subprocess.run([f'git config --global --add safe.directory {buggy_dir}'], cwd=buggy_dir, env=env, check=True, shell=True)
-                    subprocess.run([f'git config --global --add safe.directory {focal_dir}'], cwd=focal_dir, env=env, check=True, shell=True)
+                # if 'pandas' in proj_name:
+                #     subprocess.run([f'git config --global --add safe.directory {fixed_dir}'], cwd=fixed_dir, env=env, check=True, shell=True)
+                #     subprocess.run([f'git config --global --add safe.directory {buggy_dir}'], cwd=buggy_dir, env=env, check=True, shell=True)
+                #     subprocess.run([f'git config --global --add safe.directory {focal_dir}'], cwd=focal_dir, env=env, check=True, shell=True)
 
+                print(f'conda run -n {env_name} {bugs_in_py_meta_data_dir}/{proj_name}/{proj_name}-{bug_id}/dependency_setup.sh')
                 subprocess.run([f'conda run -n {env_name} {bugs_in_py_meta_data_dir}/{proj_name}/{proj_name}-{bug_id}/dependency_setup.sh'], cwd=fixed_dir, env=env, check=True, shell=True)
-                
                 with open(f'{log_dir}/{proj_name}-{bug_id}.log', 'a+') as f:
-                    f.write(f"Set up fixed bug {bug_id} for project {proj_name} successfully.")
+                    f.write(f"Set up fixed bug {bug_id} for project {proj_name} successfully.\n")
                 
                 # subprocess.run([f'conda run -n {env_name} {bugs_in_py_meta_data_dir}/{proj_name}/{proj_name}-{bug_id}/dependency_setup.sh'], cwd=buggy_dir, env=env, check=True, shell=True)
                 
                 subprocess.run([f'conda run -n {env_name} {bugs_in_py_meta_data_dir}/{proj_name}/{proj_name}-{bug_id}/dependency_setup.sh'], cwd=focal_dir, env=env, check=True, shell=True)
-                
                 with open(f'{log_dir}/{proj_name}-{bug_id}.log', 'a+') as f:
-                    f.write(f"Set up focal bug {bug_id} for project {proj_name} successfully.")
+                    f.write(f"Set up focal bug {bug_id} for project {proj_name} successfully.\n")
                 
                 print(f"Set up bug {bug_id} for project {proj_name} successfully.")
                 with open(f'{log_dir}/{proj_name}-{bug_id}.log', 'a+') as f:
-                    f.write(f"Set up bug {bug_id} for project {proj_name} successfully.")
+                    f.write(f"Set up bug {bug_id} for project {proj_name} successfully.\n")
             except subprocess.CalledProcessError as e:
                 with open(f'{log_dir}/{proj_name}-{bug_id}.log', 'w') as f:
-                    f.write(f"Failed to set up bug {bug_id} for project {proj_name}: {e.output}")
+                    f.write(f"Failed to set up bug {bug_id} for project {proj_name}: {e.output}\n")
                 continue
 
 
@@ -253,7 +262,7 @@ def check_bugs_reproducible(info_file, bugs_in_py_meta_data_dir, bugs_in_py_chec
             
             focal_dir = os.path.join(single_bug_dir, 'focal')
             fixed_dir = os.path.join(single_bug_dir, 'fixed')
-            
+        
             if not os.path.join(focal_dir):
                 print(f"Bug {bug_id} for project {proj_name} does not exist. Skipping.")
                 continue
@@ -308,12 +317,12 @@ def check_bugs_reproducible(info_file, bugs_in_py_meta_data_dir, bugs_in_py_chec
                 
             print(f"Reproduce result for bug {bug_id} of project {proj_name}: {exe_res}")
 
-# clone_all_bugsinpy_repos(bugs_in_py_base_proj_dir, bugs_in_py_info_file)
-# setup_envs(bugs_in_py_meta_data_dir, bugs_in_py_info_file)
 
-
-# setup_bugsinpy_bugs(bugs_in_py_base_proj_dir, bugs_in_py_checkout_proj_dir, bugs_in_py_info_file, bugs_in_py_meta_data_dir)
-check_bugs_reproducible(bugs_in_py_info_file, bugs_in_py_meta_data_dir, bugs_in_py_checkout_proj_dir)
+if __name__ == "__main__":
+    clone_all_bugsinpy_repos(bugs_in_py_base_proj_dir, bugs_in_py_info_file)
+    setup_all_envs(bugs_in_py_meta_data_dir, bugs_in_py_info_file)
+    setup_bugsinpy_bugs(bugs_in_py_base_proj_dir, bugs_in_py_checkout_proj_dir, bugs_in_py_info_file, bugs_in_py_meta_data_dir)
+    check_bugs_reproducible(bugs_in_py_info_file, bugs_in_py_meta_data_dir, bugs_in_py_checkout_proj_dir)
 
 
 # 首先setupenv的时候，建立conda环境，也许会出错，一般是需要修改 requirements.txt，里面会有一些冲突的包，或者是现在废弃的包，或者是linux不支持的包，进行对应的调整
